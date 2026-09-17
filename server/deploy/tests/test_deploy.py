@@ -258,10 +258,13 @@ def test_incomplete_previous_state_is_not_overwritten(deployment):
     assert_data_untouched(deployment)
 
 
-def test_external_probe_failure_rolls_back_completed_deployment(deployment):
+@pytest.mark.parametrize("remove_archive", [False, True])
+def test_external_probe_failure_rolls_back_completed_deployment(deployment, remove_archive):
     original = previous_installation(deployment)
     deployed = run_deploy(deployment)
     assert deployed.returncode == 0, deployed.stdout + deployed.stderr
+    if remove_archive:
+        (deployment[1] / "image.tar.gz").unlink()
 
     result = run_deploy(deployment, rollback=True)
 

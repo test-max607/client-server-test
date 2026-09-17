@@ -19,7 +19,6 @@ mkdir -p "$app_root/data"
 exec 9>"$app_root/.deploy.lock"
 flock -w 300 9
 cd "$release"
-sha256sum --strict --check SHA256SUMS
 
 active_env="$app_root/active.env"
 active_compose="$app_root/active.compose.yaml"
@@ -54,6 +53,10 @@ if [[ "${3:-}" == --rollback ]]; then
   echo "Rolled back externally failed release $version; database preserved."
   exit 0
 fi
+
+# A new deployment requires an intact archive. Rollback uses the already-loaded
+# previous image and saved configuration, even after an archive has been removed.
+sha256sum --strict --check SHA256SUMS
 
 latest_version() {
   timeout 30 git ls-remote "$repository_url" refs/heads/main | awk '{print $1}'
@@ -148,7 +151,7 @@ while IFS= read -r candidate; do
     docker image rm "$candidate" || echo "Could not remove unused image $candidate" >&2
   fi
 done < <(docker image ls client-server-test --format '{{.Repository}}:{{.Tag}}')
-# Keep archives for current/previous releases as checksums also protect explicit rollback.
+# Retain only current/previous archives for diagnosis and an explicit redeployment.
 while IFS= read -r -d '' archive; do
   archive_version=$(basename "$(dirname "$archive")")
   if [[ "$archive_version" != "$version" && "$archive_version" != "$retained_previous" ]]; then

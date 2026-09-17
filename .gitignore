@@ -13,3 +13,4 @@ htmlcov/
 /server/runtime/
 /artifacts/
 /.test-tmp/
+/pytest-cache-files-*/
