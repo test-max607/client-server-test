@@ -1,0 +1,190 @@
+name: Check, build and deploy
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  server:
+    name: Server, lint and deployment tests
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: server/requirements*.txt
+      - name: Install test dependencies
+        run: python -m pip install -r server/requirements-dev.txt
+      - name: Lint
+        run: python -m ruff check .
+      - name: Check protobuf reproducibility
+        run: python -m server.generate_proto --check
+      - name: Test server and deployment rollback
+        run: python -m pytest server/tests server/deploy/tests -q
+      - name: Check deployment shell script
+        run: shellcheck server/deploy/deploy.sh
+
+  client:
+    name: Windows PyQt6 client
+    runs-on: windows-latest
+    timeout-minutes: 10
+    env:
+      QT_QPA_PLATFORM: offscreen
+      PYTEST_QT_API: pyqt6
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: client/requirements*.txt
+      - name: Install test dependencies
+        run: python -m pip install -r client/requirements-dev.txt
+      - name: Test GUI behavior and asynchronous requests
+        run: python -m pytest client/tests -q
+
+  build:
+    name: Build and probe Linux image
+    needs: [server, client]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - name: Build server image
+        run: |
+          docker build --platform linux/amd64 --build-arg APP_VERSION="$GITHUB_SHA" \
+            -f server/Dockerfile -t "client-server-test:$GITHUB_SHA" .
+      - name: Probe disposable container
+        run: |
+          set -Eeuo pipefail
+          cleanup() {
+            docker logs metering-ci-smoke || true
+            docker rm --force metering-ci-smoke || true
+            docker volume rm metering-ci-data || true
+          }
+          trap cleanup EXIT
+          docker volume create metering-ci-data
+          docker run --detach --name metering-ci-smoke \
+            --mount type=volume,source=metering-ci-data,target=/data \
+            "client-server-test:$GITHUB_SHA"
+          for attempt in $(seq 1 30); do
+            if docker exec metering-ci-smoke python -m server.deploy.smoke \
+              --expected-version "$GITHUB_SHA"; then
+              exit 0
+            fi
+            sleep 2
+          done
+          echo 'Container failed readiness probes' >&2
+          exit 1
+      - name: Export the verified image and deployment files
+        run: |
+          set -Eeuo pipefail
+          mkdir bundle
+          docker save "client-server-test:$GITHUB_SHA" | gzip > bundle/image.tar.gz
+          cp server/compose.yaml server/deploy/deploy.sh server/deploy/smoke.py bundle/
+          cd bundle
+          sha256sum image.tar.gz compose.yaml deploy.sh smoke.py > SHA256SUMS
+      - uses: actions/upload-artifact@v7
+        with:
+          name: server-${{ github.sha }}
+          path: bundle/
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 0
+
+  deploy:
+    name: Deploy verified main version
+    needs: [server, client, build]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    concurrency:
+      group: deploy-main
+      cancel-in-progress: false
+    env:
+      DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+      DEPLOY_USER: ${{ vars.DEPLOY_USER }}
+      DEPLOY_PORT: ${{ vars.DEPLOY_PORT }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v8
+        with:
+          name: server-${{ github.sha }}
+          path: bundle
+      - name: Check artifact and SSH settings
+        env:
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+          SSHPASS: ${{ secrets.DEPLOY_SSH_PASSWORD }}
+        run: |
+          set -Eeuo pipefail
+          : "${SSHPASS:?Configure DEPLOY_SSH_PASSWORD}"
+          : "${DEPLOY_KNOWN_HOSTS:?Configure DEPLOY_KNOWN_HOSTS}"
+          [[ "$DEPLOY_HOST" =~ ^[a-zA-Z0-9.-]+$ ]]
+          [[ "$DEPLOY_USER" =~ ^[a-z_][a-z0-9_-]*$ ]]
+          [[ "$DEPLOY_PORT" =~ ^[0-9]+$ ]]
+          [[ "$DEPLOY_PORT" -ge 1 && "$DEPLOY_PORT" -le 65535 ]]
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > "$RUNNER_TEMP/deploy_known_hosts"
+          chmod 600 "$RUNNER_TEMP/deploy_known_hosts"
+          cd bundle
+          sha256sum --strict --check SHA256SUMS
+      - name: Install deployment tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes sshpass
+          python -m pip install -r server/requirements.txt
+      - name: Transfer and start the verified image
+        id: delivery
+        env:
+          SSHPASS: ${{ secrets.DEPLOY_SSH_PASSWORD }}
+        run: |
+          set -Eeuo pipefail
+          latest=$(git ls-remote origin refs/heads/main | awk '{print $1}')
+          if [[ "$latest" != "$GITHUB_SHA" ]]; then
+            echo 'Skipping stale workflow; main has advanced.'
+            exit 0
+          fi
+          release="/home/$DEPLOY_USER/client-server-test/releases/$GITHUB_SHA"
+          target="$DEPLOY_USER@$DEPLOY_HOST"
+          options=(-o StrictHostKeyChecking=yes -o "UserKnownHostsFile=$RUNNER_TEMP/deploy_known_hosts"
+            -o ConnectTimeout=15 -o ServerAliveInterval=15 -o ServerAliveCountMax=3
+            -o PreferredAuthentications=password -o PubkeyAuthentication=no)
+          sshpass -e ssh "${options[@]}" -p "$DEPLOY_PORT" "$target" "mkdir -p '$release'"
+          sshpass -e scp "${options[@]}" -P "$DEPLOY_PORT" \
+            bundle/image.tar.gz bundle/compose.yaml bundle/deploy.sh bundle/smoke.py \
+            bundle/SHA256SUMS "$target:$release/"
+          sshpass -e ssh "${options[@]}" -p "$DEPLOY_PORT" "$target" \
+            "bash '$release/deploy.sh' '$GITHUB_SHA' '$release'" | tee "$RUNNER_TEMP/deploy-result"
+          if grep -Fxq "Deployment ready: $GITHUB_SHA" "$RUNNER_TEMP/deploy-result"; then
+            echo 'deployed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Check public REST and gRPC; roll back on failure
+        if: steps.delivery.outputs.deployed == 'true'
+        env:
+          SSHPASS: ${{ secrets.DEPLOY_SSH_PASSWORD }}
+        run: |
+          set -Eeuo pipefail
+          if python -m server.deploy.smoke --http-url "http://$DEPLOY_HOST:8000" \
+            --grpc-target "$DEPLOY_HOST:50051" --expected-version "$GITHUB_SHA"; then
+            exit 0
+          fi
+          echo 'External probe failed; requesting rollback.' >&2
+          release="/home/$DEPLOY_USER/client-server-test/releases/$GITHUB_SHA"
+          sshpass -e ssh -p "$DEPLOY_PORT" -o StrictHostKeyChecking=yes \
+            -o "UserKnownHostsFile=$RUNNER_TEMP/deploy_known_hosts" \
+            -o ConnectTimeout=15 -o ServerAliveInterval=15 -o ServerAliveCountMax=3 \
+            -o PreferredAuthentications=password -o PubkeyAuthentication=no \
+            "$DEPLOY_USER@$DEPLOY_HOST" \
+            "bash '$release/deploy.sh' '$GITHUB_SHA' '$release' --rollback"
+          exit 1

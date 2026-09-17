@@ -1,0 +1,45 @@
+name: client-server-test
+
+services:
+  server:
+    image: ${APP_IMAGE:?Set APP_IMAGE to client-server-test:<commit SHA>}
+    pull_policy: never
+    user: "1000:1000"
+    init: true
+    restart: unless-stopped
+    stop_grace_period: 20s
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    environment:
+      APP_VERSION: ${APP_VERSION:?Set APP_VERSION to the commit SHA}
+      HTTP_HOST: 0.0.0.0
+      HTTP_PORT: "8000"
+      GRPC_HOST: 0.0.0.0
+      GRPC_PORT: "50051"
+      DATABASE_PATH: /data/metering.sqlite3
+      SEED_PATH: /app/server/data.json
+    ports:
+      - "${HTTP_PORT:-8000}:8000"
+      - "${GRPC_PORT:-50051}:50051"
+    volumes:
+      - type: bind
+        source: ${APP_DATA_DIR:?Set APP_DATA_DIR to an existing writable directory}
+        target: /data
+        bind:
+          create_host_path: false
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/healthz', timeout=3).read()"]
+      interval: 5s
+      timeout: 4s
+      start_period: 10s
+      retries: 6
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "3"

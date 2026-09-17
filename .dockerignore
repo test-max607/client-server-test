@@ -1,0 +1,10 @@
+**
+!server/
+!server/**
+server/tests/
+server/deploy/tests/
+server/**/__pycache__/
+server/**/*.pyc
+server/requirements-dev.txt
+server/**/.env
+server/**/*.sqlite3*
