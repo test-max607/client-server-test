@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package metering.v1;
+
+service MeterIngestion {
+  rpc SubmitReading (SubmitReadingRequest) returns (SubmitReadingResponse);
+}
+
+message SubmitReadingRequest {
+  string serial_number = 1;
+  string recorded_at = 2;
+  optional double reading_kwh = 3;
+}
+
+message SubmitReadingResponse {
+  int64 reading_id = 1;
+  int64 meter_id = 2;
+}
