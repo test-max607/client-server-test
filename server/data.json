@@ -1,0 +1,3506 @@
+{
+  "meters": [
+    {
+      "id": 28,
+      "serial_number": "00120028",
+      "location": "Теплица, блок 3"
+    },
+    {
+      "id": 93,
+      "serial_number": "00120093",
+      "location": "Мастерская, ввод 10"
+    },
+    {
+      "id": 83,
+      "serial_number": "00120083",
+      "location": "Мастерская, ввод 9"
+    },
+    {
+      "id": 54,
+      "serial_number": "00120054",
+      "location": "Лаборатория, корпус 6"
+    },
+    {
+      "id": 40,
+      "serial_number": "00120040",
+      "location": "Прачечная, участок 4"
+    },
+    {
+      "id": 77,
+      "serial_number": "00120077",
+      "location": "Учебный центр, кабинет 8"
+    },
+    {
+      "id": 48,
+      "serial_number": "00120048",
+      "location": "Теплица, блок 5"
+    },
+    {
+      "id": 36,
+      "serial_number": "00120036",
+      "location": "Архив, помещение 4"
+    },
+    {
+      "id": 29,
+      "serial_number": "00120029",
+      "location": "Гараж, бокс 3"
+    },
+    {
+      "id": 51,
+      "serial_number": "00120051",
+      "location": "Офис, этаж 6"
+    },
+    {
+      "id": 47,
+      "serial_number": "00120047",
+      "location": "Учебный центр, кабинет 5"
+    },
+    {
+      "id": 8,
+      "serial_number": "00120008",
+      "location": "Теплица, блок 1"
+    },
+    {
+      "id": 89,
+      "serial_number": "00120089",
+      "location": "Гараж, бокс 9"
+    },
+    {
+      "id": 62,
+      "serial_number": "00120062",
+      "location": "Склад, секция 7"
+    },
+    {
+      "id": 74,
+      "serial_number": "00120074",
+      "location": "Лаборатория, корпус 8"
+    },
+    {
+      "id": 35,
+      "serial_number": "00120035",
+      "location": "Павильон, зал 4"
+    },
+    {
+      "id": 27,
+      "serial_number": "00120027",
+      "location": "Учебный центр, кабинет 3"
+    },
+    {
+      "id": 67,
+      "serial_number": "00120067",
+      "location": "Учебный центр, кабинет 7"
+    },
+    {
+      "id": 34,
+      "serial_number": "00120034",
+      "location": "Лаборатория, корпус 4"
+    },
+    {
+      "id": 6,
+      "serial_number": "00120006",
+      "location": "Архив, помещение 1"
+    },
+    {
+      "id": 14,
+      "serial_number": "00120014",
+      "location": "Лаборатория, корпус 2"
+    },
+    {
+      "id": 91,
+      "serial_number": "00120091",
+      "location": "Офис, этаж 10"
+    },
+    {
+      "id": 96,
+      "serial_number": "00120096",
+      "location": "Архив, помещение 10"
+    },
+    {
+      "id": 98,
+      "serial_number": "00120098",
+      "location": "Теплица, блок 10"
+    },
+    {
+      "id": 5,
+      "serial_number": "00120005",
+      "location": "Павильон, зал 1"
+    },
+    {
+      "id": 94,
+      "serial_number": "00120094",
+      "location": "Лаборатория, корпус 10"
+    },
+    {
+      "id": 12,
+      "serial_number": "00120012",
+      "location": "Склад, секция 2"
+    },
+    {
+      "id": 42,
+      "serial_number": "00120042",
+      "location": "Склад, секция 5"
+    },
+    {
+      "id": 52,
+      "serial_number": "00120052",
+      "location": "Склад, секция 6"
+    },
+    {
+      "id": 38,
+      "serial_number": "00120038",
+      "location": "Теплица, блок 4"
+    },
+    {
+      "id": 86,
+      "serial_number": "00120086",
+      "location": "Архив, помещение 9"
+    },
+    {
+      "id": 20,
+      "serial_number": "00120020",
+      "location": "Прачечная, участок 2"
+    },
+    {
+      "id": 3,
+      "serial_number": "00120003",
+      "location": "Мастерская, ввод 1"
+    },
+    {
+      "id": 61,
+      "serial_number": "00120061",
+      "location": "Офис, этаж 7"
+    },
+    {
+      "id": 9,
+      "serial_number": "00120009",
+      "location": "Гараж, бокс 1"
+    },
+    {
+      "id": 17,
+      "serial_number": "00120017",
+      "location": "Учебный центр, кабинет 2"
+    },
+    {
+      "id": 13,
+      "serial_number": "00120013",
+      "location": "Мастерская, ввод 2"
+    },
+    {
+      "id": 41,
+      "serial_number": "00120041",
+      "location": "Офис, этаж 5"
+    },
+    {
+      "id": 72,
+      "serial_number": "00120072",
+      "location": "Склад, секция 8"
+    },
+    {
+      "id": 46,
+      "serial_number": "00120046",
+      "location": "Архив, помещение 5"
+    },
+    {
+      "id": 15,
+      "serial_number": "00120015",
+      "location": "Павильон, зал 2"
+    },
+    {
+      "id": 97,
+      "serial_number": "00120097",
+      "location": "Учебный центр, кабинет 10"
+    },
+    {
+      "id": 99,
+      "serial_number": "00120099",
+      "location": "Гараж, бокс 10"
+    },
+    {
+      "id": 66,
+      "serial_number": "00120066",
+      "location": "Архив, помещение 7"
+    },
+    {
+      "id": 4,
+      "serial_number": "00120004",
+      "location": "Лаборатория, корпус 1"
+    },
+    {
+      "id": 44,
+      "serial_number": "00120044",
+      "location": "Лаборатория, корпус 5"
+    },
+    {
+      "id": 56,
+      "serial_number": "00120056",
+      "location": "Архив, помещение 6"
+    },
+    {
+      "id": 1,
+      "serial_number": "00120001",
+      "location": "Офис, этаж 1"
+    },
+    {
+      "id": 18,
+      "serial_number": "00120018",
+      "location": "Теплица, блок 2"
+    },
+    {
+      "id": 65,
+      "serial_number": "00120065",
+      "location": "Павильон, зал 7"
+    },
+    {
+      "id": 43,
+      "serial_number": "00120043",
+      "location": "Мастерская, ввод 5"
+    },
+    {
+      "id": 78,
+      "serial_number": "00120078",
+      "location": "Теплица, блок 8"
+    },
+    {
+      "id": 63,
+      "serial_number": "00120063",
+      "location": "Мастерская, ввод 7"
+    },
+    {
+      "id": 71,
+      "serial_number": "00120071",
+      "location": "Офис, этаж 8"
+    },
+    {
+      "id": 84,
+      "serial_number": "00120084",
+      "location": "Лаборатория, корпус 9"
+    },
+    {
+      "id": 58,
+      "serial_number": "00120058",
+      "location": "Теплица, блок 6"
+    },
+    {
+      "id": 92,
+      "serial_number": "00120092",
+      "location": "Склад, секция 10"
+    },
+    {
+      "id": 76,
+      "serial_number": "00120076",
+      "location": "Архив, помещение 8"
+    },
+    {
+      "id": 25,
+      "serial_number": "00120025",
+      "location": "Павильон, зал 3"
+    },
+    {
+      "id": 16,
+      "serial_number": "00120016",
+      "location": "Архив, помещение 2"
+    },
+    {
+      "id": 7,
+      "serial_number": "00120007",
+      "location": "Учебный центр, кабинет 1"
+    },
+    {
+      "id": 87,
+      "serial_number": "00120087",
+      "location": "Учебный центр, кабинет 9"
+    },
+    {
+      "id": 69,
+      "serial_number": "00120069",
+      "location": "Гараж, бокс 7"
+    },
+    {
+      "id": 50,
+      "serial_number": "00120050",
+      "location": "Прачечная, участок 5"
+    },
+    {
+      "id": 26,
+      "serial_number": "00120026",
+      "location": "Архив, помещение 3"
+    },
+    {
+      "id": 85,
+      "serial_number": "00120085",
+      "location": "Павильон, зал 9"
+    },
+    {
+      "id": 95,
+      "serial_number": "00120095",
+      "location": "Павильон, зал 10"
+    },
+    {
+      "id": 90,
+      "serial_number": "00120090",
+      "location": "Прачечная, участок 9"
+    },
+    {
+      "id": 55,
+      "serial_number": "00120055",
+      "location": "Павильон, зал 6"
+    },
+    {
+      "id": 39,
+      "serial_number": "00120039",
+      "location": "Гараж, бокс 4"
+    },
+    {
+      "id": 45,
+      "serial_number": "00120045",
+      "location": "Павильон, зал 5"
+    },
+    {
+      "id": 57,
+      "serial_number": "00120057",
+      "location": "Учебный центр, кабинет 6"
+    },
+    {
+      "id": 10,
+      "serial_number": "00120010",
+      "location": "Прачечная, участок 1"
+    },
+    {
+      "id": 21,
+      "serial_number": "00120021",
+      "location": "Офис, этаж 3"
+    },
+    {
+      "id": 70,
+      "serial_number": "00120070",
+      "location": "Прачечная, участок 7"
+    },
+    {
+      "id": 37,
+      "serial_number": "00120037",
+      "location": "Учебный центр, кабинет 4"
+    },
+    {
+      "id": 82,
+      "serial_number": "00120082",
+      "location": "Склад, секция 9"
+    },
+    {
+      "id": 2,
+      "serial_number": "00120002",
+      "location": "Склад, секция 1"
+    },
+    {
+      "id": 81,
+      "serial_number": "00120081",
+      "location": "Офис, этаж 9"
+    },
+    {
+      "id": 59,
+      "serial_number": "00120059",
+      "location": "Гараж, бокс 6"
+    },
+    {
+      "id": 33,
+      "serial_number": "00120033",
+      "location": "Мастерская, ввод 4"
+    },
+    {
+      "id": 60,
+      "serial_number": "00120060",
+      "location": "Прачечная, участок 6"
+    },
+    {
+      "id": 30,
+      "serial_number": "00120030",
+      "location": "Прачечная, участок 3"
+    },
+    {
+      "id": 100,
+      "serial_number": "00120100",
+      "location": "Прачечная, участок 10"
+    },
+    {
+      "id": 75,
+      "serial_number": "00120075",
+      "location": "Павильон, зал 8"
+    },
+    {
+      "id": 64,
+      "serial_number": "00120064",
+      "location": "Лаборатория, корпус 7"
+    },
+    {
+      "id": 31,
+      "serial_number": "00120031",
+      "location": "Офис, этаж 4"
+    },
+    {
+      "id": 80,
+      "serial_number": "00120080",
+      "location": "Прачечная, участок 8"
+    },
+    {
+      "id": 49,
+      "serial_number": "00120049",
+      "location": "Гараж, бокс 5"
+    },
+    {
+      "id": 79,
+      "serial_number": "00120079",
+      "location": "Гараж, бокс 8"
+    },
+    {
+      "id": 11,
+      "serial_number": "00120011",
+      "location": "Офис, этаж 2"
+    },
+    {
+      "id": 23,
+      "serial_number": "00120023",
+      "location": "Мастерская, ввод 3"
+    },
+    {
+      "id": 22,
+      "serial_number": "00120022",
+      "location": "Склад, секция 3"
+    },
+    {
+      "id": 24,
+      "serial_number": "00120024",
+      "location": "Лаборатория, корпус 3"
+    },
+    {
+      "id": 88,
+      "serial_number": "00120088",
+      "location": "Теплица, блок 9"
+    },
+    {
+      "id": 73,
+      "serial_number": "00120073",
+      "location": "Мастерская, ввод 8"
+    },
+    {
+      "id": 53,
+      "serial_number": "00120053",
+      "location": "Мастерская, ввод 6"
+    },
+    {
+      "id": 68,
+      "serial_number": "00120068",
+      "location": "Теплица, блок 7"
+    },
+    {
+      "id": 32,
+      "serial_number": "00120032",
+      "location": "Склад, секция 4"
+    },
+    {
+      "id": 19,
+      "serial_number": "00120019",
+      "location": "Гараж, бокс 2"
+    }
+  ],
+  "readings": [
+    {
+      "id": 432,
+      "meter_id": 87,
+      "recorded_at": "2026-09-14T11:56:58Z",
+      "reading_kwh": 152729.68
+    },
+    {
+      "id": 1,
+      "meter_id": 2,
+      "recorded_at": "2026-09-11T07:17:05Z",
+      "reading_kwh": 92284.52
+    },
+    {
+      "id": 390,
+      "meter_id": 78,
+      "recorded_at": "2026-09-17T18:33:01Z",
+      "reading_kwh": 153099.95
+    },
+    {
+      "id": 337,
+      "meter_id": 68,
+      "recorded_at": "2026-09-14T22:40:02Z",
+      "reading_kwh": 61654.38
+    },
+    {
+      "id": 465,
+      "meter_id": 93,
+      "recorded_at": "2026-09-16T00:51:38Z",
+      "reading_kwh": 171484.11
+    },
+    {
+      "id": 385,
+      "meter_id": 77,
+      "recorded_at": "2026-09-16T23:13:53Z",
+      "reading_kwh": 189848.09
+    },
+    {
+      "id": 74,
+      "meter_id": 15,
+      "recorded_at": "2026-09-17T10:28:36Z",
+      "reading_kwh": 109581.31
+    },
+    {
+      "id": 360,
+      "meter_id": 72,
+      "recorded_at": "2026-09-16T12:09:46Z",
+      "reading_kwh": 85483.43
+    },
+    {
+      "id": 257,
+      "meter_id": 52,
+      "recorded_at": "2026-09-16T08:54:31Z",
+      "reading_kwh": 54026.7
+    },
+    {
+      "id": 464,
+      "meter_id": 93,
+      "recorded_at": "2026-09-15T02:59:45Z",
+      "reading_kwh": 171092.78
+    },
+    {
+      "id": 459,
+      "meter_id": 92,
+      "recorded_at": "2026-09-16T17:32:38Z",
+      "reading_kwh": 185916.07
+    },
+    {
+      "id": 431,
+      "meter_id": 87,
+      "recorded_at": "2026-09-11T10:41:19Z",
+      "reading_kwh": 152614.25
+    },
+    {
+      "id": 273,
+      "meter_id": 55,
+      "recorded_at": "2026-09-15T22:43:18Z",
+      "reading_kwh": 156964.84
+    },
+    {
+      "id": 429,
+      "meter_id": 86,
+      "recorded_at": "2026-09-15T22:56:24Z",
+      "reading_kwh": 108509.47
+    },
+    {
+      "id": 442,
+      "meter_id": 89,
+      "recorded_at": "2026-09-13T11:17:26Z",
+      "reading_kwh": 90329.08
+    },
+    {
+      "id": 178,
+      "meter_id": 36,
+      "recorded_at": "2026-09-16T08:41:38Z",
+      "reading_kwh": 37832.64
+    },
+    {
+      "id": 451,
+      "meter_id": 91,
+      "recorded_at": "2026-09-12T03:08:56Z",
+      "reading_kwh": 51664.13
+    },
+    {
+      "id": 378,
+      "meter_id": 76,
+      "recorded_at": "2026-09-15T03:14:16Z",
+      "reading_kwh": 85493.39
+    },
+    {
+      "id": 239,
+      "meter_id": 48,
+      "recorded_at": "2026-09-15T01:37:50Z",
+      "reading_kwh": 79771.16
+    },
+    {
+      "id": 207,
+      "meter_id": 42,
+      "recorded_at": "2026-09-12T09:35:44Z",
+      "reading_kwh": 195161.54
+    },
+    {
+      "id": 101,
+      "meter_id": 21,
+      "recorded_at": "2026-09-12T14:32:19Z",
+      "reading_kwh": 81536.34
+    },
+    {
+      "id": 365,
+      "meter_id": 73,
+      "recorded_at": "2026-09-17T12:04:54Z",
+      "reading_kwh": 164022.87
+    },
+    {
+      "id": 296,
+      "meter_id": 60,
+      "recorded_at": "2026-09-14T09:02:53Z",
+      "reading_kwh": 141453.68
+    },
+    {
+      "id": 323,
+      "meter_id": 65,
+      "recorded_at": "2026-09-15T11:56:11Z",
+      "reading_kwh": 5438.45
+    },
+    {
+      "id": 265,
+      "meter_id": 53,
+      "recorded_at": "2026-09-17T07:50:22Z",
+      "reading_kwh": 148736.33
+    },
+    {
+      "id": 334,
+      "meter_id": 67,
+      "recorded_at": "2026-09-14T21:52:40Z",
+      "reading_kwh": 95112.41
+    },
+    {
+      "id": 446,
+      "meter_id": 90,
+      "recorded_at": "2026-09-11T08:24:31Z",
+      "reading_kwh": 104270.44
+    },
+    {
+      "id": 249,
+      "meter_id": 50,
+      "recorded_at": "2026-09-13T23:03:56Z",
+      "reading_kwh": 143851.67
+    },
+    {
+      "id": 376,
+      "meter_id": 76,
+      "recorded_at": "2026-09-11T14:57:52Z",
+      "reading_kwh": 84717.68
+    },
+    {
+      "id": 92,
+      "meter_id": 19,
+      "recorded_at": "2026-09-11T18:38:56Z",
+      "reading_kwh": 197736.38
+    },
+    {
+      "id": 255,
+      "meter_id": 51,
+      "recorded_at": "2026-09-17T18:21:22Z",
+      "reading_kwh": 47194.85
+    },
+    {
+      "id": 444,
+      "meter_id": 89,
+      "recorded_at": "2026-09-16T08:45:13Z",
+      "reading_kwh": 90878.34
+    },
+    {
+      "id": 69,
+      "meter_id": 14,
+      "recorded_at": "2026-09-17T01:48:22Z",
+      "reading_kwh": 37022.85
+    },
+    {
+      "id": 188,
+      "meter_id": 38,
+      "recorded_at": "2026-09-14T00:40:50Z",
+      "reading_kwh": 136870.5
+    },
+    {
+      "id": 467,
+      "meter_id": 94,
+      "recorded_at": "2026-09-16T10:03:58Z",
+      "reading_kwh": 116240.11
+    },
+    {
+      "id": 397,
+      "meter_id": 80,
+      "recorded_at": "2026-09-11T21:51:51Z",
+      "reading_kwh": 151779.88
+    },
+    {
+      "id": 119,
+      "meter_id": 24,
+      "recorded_at": "2026-09-16T09:04:16Z",
+      "reading_kwh": 185561.74
+    },
+    {
+      "id": 62,
+      "meter_id": 13,
+      "recorded_at": "2026-09-12T09:21:56Z",
+      "reading_kwh": 37815.39
+    },
+    {
+      "id": 361,
+      "meter_id": 73,
+      "recorded_at": "2026-09-12T10:49:22Z",
+      "reading_kwh": 162470.08
+    },
+    {
+      "id": 499,
+      "meter_id": 100,
+      "recorded_at": "2026-09-14T15:13:32Z",
+      "reading_kwh": 20176.18
+    },
+    {
+      "id": 322,
+      "meter_id": 65,
+      "recorded_at": "2026-09-15T03:23:26Z",
+      "reading_kwh": 4795.93
+    },
+    {
+      "id": 43,
+      "meter_id": 9,
+      "recorded_at": "2026-09-14T05:59:06Z",
+      "reading_kwh": 23229.17
+    },
+    {
+      "id": 176,
+      "meter_id": 36,
+      "recorded_at": "2026-09-11T02:48:59Z",
+      "reading_kwh": 37538.64
+    },
+    {
+      "id": 177,
+      "meter_id": 36,
+      "recorded_at": "2026-09-16T04:34:22Z",
+      "reading_kwh": 37637.27
+    },
+    {
+      "id": 138,
+      "meter_id": 28,
+      "recorded_at": "2026-09-17T02:27:56Z",
+      "reading_kwh": 27214.33
+    },
+    {
+      "id": 489,
+      "meter_id": 98,
+      "recorded_at": "2026-09-15T02:36:47Z",
+      "reading_kwh": 180606.65
+    },
+    {
+      "id": 3,
+      "meter_id": 3,
+      "recorded_at": "2026-09-11T08:40:44Z",
+      "reading_kwh": 188583.22
+    },
+    {
+      "id": 461,
+      "meter_id": 93,
+      "recorded_at": "2026-09-11T20:20:01Z",
+      "reading_kwh": 170368.49
+    },
+    {
+      "id": 127,
+      "meter_id": 26,
+      "recorded_at": "2026-09-14T05:14:45Z",
+      "reading_kwh": 96268.2
+    },
+    {
+      "id": 289,
+      "meter_id": 58,
+      "recorded_at": "2026-09-15T21:45:56Z",
+      "reading_kwh": 180513.72
+    },
+    {
+      "id": 374,
+      "meter_id": 75,
+      "recorded_at": "2026-09-14T13:05:27Z",
+      "reading_kwh": 165234.79
+    },
+    {
+      "id": 478,
+      "meter_id": 96,
+      "recorded_at": "2026-09-15T16:27:12Z",
+      "reading_kwh": 13245.57
+    },
+    {
+      "id": 350,
+      "meter_id": 70,
+      "recorded_at": "2026-09-17T17:42:24Z",
+      "reading_kwh": 151203.13
+    },
+    {
+      "id": 382,
+      "meter_id": 77,
+      "recorded_at": "2026-09-11T21:34:40Z",
+      "reading_kwh": 189255.87
+    },
+    {
+      "id": 52,
+      "meter_id": 11,
+      "recorded_at": "2026-09-13T15:52:54Z",
+      "reading_kwh": 171615.52
+    },
+    {
+      "id": 7,
+      "meter_id": 3,
+      "recorded_at": "2026-09-12T05:51:13Z",
+      "reading_kwh": 190725.1
+    },
+    {
+      "id": 498,
+      "meter_id": 100,
+      "recorded_at": "2026-09-13T00:27:26Z",
+      "reading_kwh": 19684.86
+    },
+    {
+      "id": 256,
+      "meter_id": 52,
+      "recorded_at": "2026-09-16T04:17:50Z",
+      "reading_kwh": 53404.53
+    },
+    {
+      "id": 71,
+      "meter_id": 15,
+      "recorded_at": "2026-09-11T00:09:59Z",
+      "reading_kwh": 108768.72
+    },
+    {
+      "id": 150,
+      "meter_id": 30,
+      "recorded_at": "2026-09-14T19:30:45Z",
+      "reading_kwh": 134382.18
+    },
+    {
+      "id": 423,
+      "meter_id": 85,
+      "recorded_at": "2026-09-16T17:02:35Z",
+      "reading_kwh": 148990.04
+    },
+    {
+      "id": 85,
+      "meter_id": 17,
+      "recorded_at": "2026-09-17T16:08:30Z",
+      "reading_kwh": 91168.98
+    },
+    {
+      "id": 480,
+      "meter_id": 96,
+      "recorded_at": "2026-09-17T00:16:29Z",
+      "reading_kwh": 13812.28
+    },
+    {
+      "id": 25,
+      "meter_id": 5,
+      "recorded_at": "2026-09-17T12:11:15Z",
+      "reading_kwh": 43592.01
+    },
+    {
+      "id": 398,
+      "meter_id": 80,
+      "recorded_at": "2026-09-12T21:35:36Z",
+      "reading_kwh": 152161.64
+    },
+    {
+      "id": 229,
+      "meter_id": 46,
+      "recorded_at": "2026-09-16T02:27:49Z",
+      "reading_kwh": 137373.25
+    },
+    {
+      "id": 77,
+      "meter_id": 16,
+      "recorded_at": "2026-09-13T21:44:43Z",
+      "reading_kwh": 26538.75
+    },
+    {
+      "id": 130,
+      "meter_id": 26,
+      "recorded_at": "2026-09-16T12:31:50Z",
+      "reading_kwh": 97837.45
+    },
+    {
+      "id": 347,
+      "meter_id": 70,
+      "recorded_at": "2026-09-16T18:40:19Z",
+      "reading_kwh": 150405.03
+    },
+    {
+      "id": 208,
+      "meter_id": 42,
+      "recorded_at": "2026-09-13T04:00:41Z",
+      "reading_kwh": 195211.69
+    },
+    {
+      "id": 195,
+      "meter_id": 39,
+      "recorded_at": "2026-09-16T00:05:22Z",
+      "reading_kwh": 84472.58
+    },
+    {
+      "id": 248,
+      "meter_id": 50,
+      "recorded_at": "2026-09-12T18:58:59Z",
+      "reading_kwh": 143172.77
+    },
+    {
+      "id": 293,
+      "meter_id": 59,
+      "recorded_at": "2026-09-13T04:55:56Z",
+      "reading_kwh": 17710.62
+    },
+    {
+      "id": 96,
+      "meter_id": 20,
+      "recorded_at": "2026-09-11T09:08:58Z",
+      "reading_kwh": 172522.16
+    },
+    {
+      "id": 335,
+      "meter_id": 67,
+      "recorded_at": "2026-09-16T06:52:12Z",
+      "reading_kwh": 95859.33
+    },
+    {
+      "id": 100,
+      "meter_id": 20,
+      "recorded_at": "2026-09-15T00:14:39Z",
+      "reading_kwh": 174116.19
+    },
+    {
+      "id": 126,
+      "meter_id": 26,
+      "recorded_at": "2026-09-11T00:37:40Z",
+      "reading_kwh": 95713.75
+    },
+    {
+      "id": 225,
+      "meter_id": 45,
+      "recorded_at": "2026-09-17T03:42:36Z",
+      "reading_kwh": 136555.66
+    },
+    {
+      "id": 418,
+      "meter_id": 84,
+      "recorded_at": "2026-09-14T00:55:29Z",
+      "reading_kwh": 9098.58
+    },
+    {
+      "id": 417,
+      "meter_id": 84,
+      "recorded_at": "2026-09-11T23:25:49Z",
+      "reading_kwh": 8798.52
+    },
+    {
+      "id": 46,
+      "meter_id": 10,
+      "recorded_at": "2026-09-12T17:36:51Z",
+      "reading_kwh": 46852.16
+    },
+    {
+      "id": 245,
+      "meter_id": 49,
+      "recorded_at": "2026-09-16T18:23:36Z",
+      "reading_kwh": 154761.67
+    },
+    {
+      "id": 462,
+      "meter_id": 93,
+      "recorded_at": "2026-09-12T15:45:39Z",
+      "reading_kwh": 170718.68
+    },
+    {
+      "id": 307,
+      "meter_id": 62,
+      "recorded_at": "2026-09-12T12:45:52Z",
+      "reading_kwh": 189522.48
+    },
+    {
+      "id": 39,
+      "meter_id": 8,
+      "recorded_at": "2026-09-16T14:38:34Z",
+      "reading_kwh": 92022.37
+    },
+    {
+      "id": 149,
+      "meter_id": 30,
+      "recorded_at": "2026-09-14T05:21:57Z",
+      "reading_kwh": 133967.76
+    },
+    {
+      "id": 179,
+      "meter_id": 36,
+      "recorded_at": "2026-09-17T16:41:18Z",
+      "reading_kwh": 38547.76
+    },
+    {
+      "id": 61,
+      "meter_id": 13,
+      "recorded_at": "2026-09-11T03:20:38Z",
+      "reading_kwh": 37430.69
+    },
+    {
+      "id": 370,
+      "meter_id": 74,
+      "recorded_at": "2026-09-15T09:06:51Z",
+      "reading_kwh": 102668.3
+    },
+    {
+      "id": 200,
+      "meter_id": 40,
+      "recorded_at": "2026-09-16T17:05:54Z",
+      "reading_kwh": 118347.45
+    },
+    {
+      "id": 309,
+      "meter_id": 62,
+      "recorded_at": "2026-09-13T21:28:52Z",
+      "reading_kwh": 190467.88
+    },
+    {
+      "id": 224,
+      "meter_id": 45,
+      "recorded_at": "2026-09-15T22:57:11Z",
+      "reading_kwh": 136304.21
+    },
+    {
+      "id": 157,
+      "meter_id": 32,
+      "recorded_at": "2026-09-12T14:34:50Z",
+      "reading_kwh": 95832.67
+    },
+    {
+      "id": 436,
+      "meter_id": 88,
+      "recorded_at": "2026-09-11T00:20:06Z",
+      "reading_kwh": 155013.53
+    },
+    {
+      "id": 139,
+      "meter_id": 28,
+      "recorded_at": "2026-09-17T03:54:56Z",
+      "reading_kwh": 27303.41
+    },
+    {
+      "id": 82,
+      "meter_id": 17,
+      "recorded_at": "2026-09-12T13:23:48Z",
+      "reading_kwh": 89629.88
+    },
+    {
+      "id": 124,
+      "meter_id": 25,
+      "recorded_at": "2026-09-15T22:22:36Z",
+      "reading_kwh": 162399.77
+    },
+    {
+      "id": 349,
+      "meter_id": 70,
+      "recorded_at": "2026-09-16T22:57:43Z",
+      "reading_kwh": 150912.67
+    },
+    {
+      "id": 237,
+      "meter_id": 48,
+      "recorded_at": "2026-09-12T03:12:03Z",
+      "reading_kwh": 79215.7
+    },
+    {
+      "id": 58,
+      "meter_id": 12,
+      "recorded_at": "2026-09-12T22:35:53Z",
+      "reading_kwh": 129357.2
+    },
+    {
+      "id": 305,
+      "meter_id": 61,
+      "recorded_at": "2026-09-17T13:07:01Z",
+      "reading_kwh": 14161.21
+    },
+    {
+      "id": 324,
+      "meter_id": 65,
+      "recorded_at": "2026-09-16T04:46:26Z",
+      "reading_kwh": 5576.79
+    },
+    {
+      "id": 202,
+      "meter_id": 41,
+      "recorded_at": "2026-09-13T08:15:11Z",
+      "reading_kwh": 94119.06
+    },
+    {
+      "id": 240,
+      "meter_id": 48,
+      "recorded_at": "2026-09-17T06:08:10Z",
+      "reading_kwh": 79964.3
+    },
+    {
+      "id": 454,
+      "meter_id": 91,
+      "recorded_at": "2026-09-13T17:26:55Z",
+      "reading_kwh": 53366.91
+    },
+    {
+      "id": 494,
+      "meter_id": 99,
+      "recorded_at": "2026-09-13T20:22:54Z",
+      "reading_kwh": 31155.87
+    },
+    {
+      "id": 162,
+      "meter_id": 33,
+      "recorded_at": "2026-09-12T06:10:18Z",
+      "reading_kwh": 45407.27
+    },
+    {
+      "id": 99,
+      "meter_id": 20,
+      "recorded_at": "2026-09-13T18:41:02Z",
+      "reading_kwh": 173835.38
+    },
+    {
+      "id": 266,
+      "meter_id": 54,
+      "recorded_at": "2026-09-11T23:28:11Z",
+      "reading_kwh": 50610.37
+    },
+    {
+      "id": 10,
+      "meter_id": 3,
+      "recorded_at": "2026-09-13T17:00:53Z",
+      "reading_kwh": 191307.53
+    },
+    {
+      "id": 231,
+      "meter_id": 47,
+      "recorded_at": "2026-09-13T13:13:12Z",
+      "reading_kwh": 148364.2
+    },
+    {
+      "id": 113,
+      "meter_id": 23,
+      "recorded_at": "2026-09-13T07:48:16Z",
+      "reading_kwh": 180719.38
+    },
+    {
+      "id": 175,
+      "meter_id": 35,
+      "recorded_at": "2026-09-16T03:22:31Z",
+      "reading_kwh": 2353.55
+    },
+    {
+      "id": 134,
+      "meter_id": 27,
+      "recorded_at": "2026-09-14T14:25:20Z",
+      "reading_kwh": 21005.67
+    },
+    {
+      "id": 187,
+      "meter_id": 38,
+      "recorded_at": "2026-09-13T13:11:21Z",
+      "reading_kwh": 136560.2
+    },
+    {
+      "id": 395,
+      "meter_id": 79,
+      "recorded_at": "2026-09-17T21:37:31Z",
+      "reading_kwh": 89655.01
+    },
+    {
+      "id": 402,
+      "meter_id": 81,
+      "recorded_at": "2026-09-13T19:59:22Z",
+      "reading_kwh": 89029.09
+    },
+    {
+      "id": 362,
+      "meter_id": 73,
+      "recorded_at": "2026-09-13T05:55:43Z",
+      "reading_kwh": 162832.5
+    },
+    {
+      "id": 439,
+      "meter_id": 88,
+      "recorded_at": "2026-09-17T05:53:13Z",
+      "reading_kwh": 155872.11
+    },
+    {
+      "id": 226,
+      "meter_id": 46,
+      "recorded_at": "2026-09-13T02:41:20Z",
+      "reading_kwh": 136256.21
+    },
+    {
+      "id": 278,
+      "meter_id": 56,
+      "recorded_at": "2026-09-15T17:26:36Z",
+      "reading_kwh": 2830.85
+    },
+    {
+      "id": 433,
+      "meter_id": 87,
+      "recorded_at": "2026-09-15T20:38:24Z",
+      "reading_kwh": 153141.93
+    },
+    {
+      "id": 198,
+      "meter_id": 40,
+      "recorded_at": "2026-09-13T16:47:18Z",
+      "reading_kwh": 118024.23
+    },
+    {
+      "id": 83,
+      "meter_id": 17,
+      "recorded_at": "2026-09-13T00:05:48Z",
+      "reading_kwh": 90184.5
+    },
+    {
+      "id": 105,
+      "meter_id": 21,
+      "recorded_at": "2026-09-17T23:50:01Z",
+      "reading_kwh": 83063.05
+    },
+    {
+      "id": 123,
+      "meter_id": 25,
+      "recorded_at": "2026-09-13T20:51:01Z",
+      "reading_kwh": 162322.91
+    },
+    {
+      "id": 94,
+      "meter_id": 19,
+      "recorded_at": "2026-09-15T02:28:28Z",
+      "reading_kwh": 197838.87
+    },
+    {
+      "id": 172,
+      "meter_id": 35,
+      "recorded_at": "2026-09-11T14:47:46Z",
+      "reading_kwh": 1626.93
+    },
+    {
+      "id": 369,
+      "meter_id": 74,
+      "recorded_at": "2026-09-14T14:17:16Z",
+      "reading_kwh": 102308.75
+    },
+    {
+      "id": 291,
+      "meter_id": 59,
+      "recorded_at": "2026-09-12T00:27:05Z",
+      "reading_kwh": 16872.72
+    },
+    {
+      "id": 133,
+      "meter_id": 27,
+      "recorded_at": "2026-09-13T15:24:35Z",
+      "reading_kwh": 20939.94
+    },
+    {
+      "id": 348,
+      "meter_id": 70,
+      "recorded_at": "2026-09-16T22:18:31Z",
+      "reading_kwh": 150527.0
+    },
+    {
+      "id": 484,
+      "meter_id": 97,
+      "recorded_at": "2026-09-16T13:05:23Z",
+      "reading_kwh": 49208.31
+    },
+    {
+      "id": 343,
+      "meter_id": 69,
+      "recorded_at": "2026-09-14T09:27:23Z",
+      "reading_kwh": 173713.98
+    },
+    {
+      "id": 321,
+      "meter_id": 65,
+      "recorded_at": "2026-09-11T20:05:06Z",
+      "reading_kwh": 4245.35
+    },
+    {
+      "id": 86,
+      "meter_id": 18,
+      "recorded_at": "2026-09-13T10:35:22Z",
+      "reading_kwh": 173669.63
+    },
+    {
+      "id": 193,
+      "meter_id": 39,
+      "recorded_at": "2026-09-15T00:45:21Z",
+      "reading_kwh": 83829.48
+    },
+    {
+      "id": 87,
+      "meter_id": 18,
+      "recorded_at": "2026-09-14T18:47:38Z",
+      "reading_kwh": 174261.41
+    },
+    {
+      "id": 234,
+      "meter_id": 47,
+      "recorded_at": "2026-09-16T08:40:46Z",
+      "reading_kwh": 149934.54
+    },
+    {
+      "id": 473,
+      "meter_id": 95,
+      "recorded_at": "2026-09-14T21:43:28Z",
+      "reading_kwh": 129348.25
+    },
+    {
+      "id": 372,
+      "meter_id": 75,
+      "recorded_at": "2026-09-11T15:52:54Z",
+      "reading_kwh": 164846.02
+    },
+    {
+      "id": 197,
+      "meter_id": 40,
+      "recorded_at": "2026-09-13T10:07:47Z",
+      "reading_kwh": 117725.91
+    },
+    {
+      "id": 250,
+      "meter_id": 50,
+      "recorded_at": "2026-09-15T20:24:26Z",
+      "reading_kwh": 144460.57
+    },
+    {
+      "id": 292,
+      "meter_id": 59,
+      "recorded_at": "2026-09-12T15:31:31Z",
+      "reading_kwh": 17213.72
+    },
+    {
+      "id": 474,
+      "meter_id": 95,
+      "recorded_at": "2026-09-16T12:37:43Z",
+      "reading_kwh": 129405.46
+    },
+    {
+      "id": 28,
+      "meter_id": 6,
+      "recorded_at": "2026-09-13T08:00:29Z",
+      "reading_kwh": 97512.2
+    },
+    {
+      "id": 371,
+      "meter_id": 75,
+      "recorded_at": "2026-09-11T13:15:26Z",
+      "reading_kwh": 164711.55
+    },
+    {
+      "id": 351,
+      "meter_id": 71,
+      "recorded_at": "2026-09-13T22:52:03Z",
+      "reading_kwh": 185714.7
+    },
+    {
+      "id": 261,
+      "meter_id": 53,
+      "recorded_at": "2026-09-13T21:41:07Z",
+      "reading_kwh": 147596.75
+    },
+    {
+      "id": 164,
+      "meter_id": 33,
+      "recorded_at": "2026-09-17T10:03:54Z",
+      "reading_kwh": 45698.87
+    },
+    {
+      "id": 294,
+      "meter_id": 59,
+      "recorded_at": "2026-09-16T04:50:33Z",
+      "reading_kwh": 18139.69
+    },
+    {
+      "id": 314,
+      "meter_id": 63,
+      "recorded_at": "2026-09-13T00:52:19Z",
+      "reading_kwh": 195108.85
+    },
+    {
+      "id": 6,
+      "meter_id": 3,
+      "recorded_at": "2026-09-12T03:17:26Z",
+      "reading_kwh": 190136.31
+    },
+    {
+      "id": 158,
+      "meter_id": 32,
+      "recorded_at": "2026-09-13T23:09:10Z",
+      "reading_kwh": 96407.01
+    },
+    {
+      "id": 342,
+      "meter_id": 69,
+      "recorded_at": "2026-09-14T08:28:08Z",
+      "reading_kwh": 173601.76
+    },
+    {
+      "id": 183,
+      "meter_id": 37,
+      "recorded_at": "2026-09-15T11:32:31Z",
+      "reading_kwh": 14917.44
+    },
+    {
+      "id": 394,
+      "meter_id": 79,
+      "recorded_at": "2026-09-13T13:27:55Z",
+      "reading_kwh": 89427.18
+    },
+    {
+      "id": 104,
+      "meter_id": 21,
+      "recorded_at": "2026-09-17T22:19:42Z",
+      "reading_kwh": 82939.41
+    },
+    {
+      "id": 147,
+      "meter_id": 30,
+      "recorded_at": "2026-09-13T21:31:20Z",
+      "reading_kwh": 132975.24
+    },
+    {
+      "id": 110,
+      "meter_id": 22,
+      "recorded_at": "2026-09-16T05:33:09Z",
+      "reading_kwh": 157514.66
+    },
+    {
+      "id": 280,
+      "meter_id": 56,
+      "recorded_at": "2026-09-17T23:40:55Z",
+      "reading_kwh": 3891.24
+    },
+    {
+      "id": 81,
+      "meter_id": 17,
+      "recorded_at": "2026-09-12T12:37:49Z",
+      "reading_kwh": 88938.24
+    },
+    {
+      "id": 457,
+      "meter_id": 92,
+      "recorded_at": "2026-09-16T01:01:13Z",
+      "reading_kwh": 185163.45
+    },
+    {
+      "id": 118,
+      "meter_id": 24,
+      "recorded_at": "2026-09-14T09:07:55Z",
+      "reading_kwh": 184853.18
+    },
+    {
+      "id": 5,
+      "meter_id": 3,
+      "recorded_at": "2026-09-12T01:19:21Z",
+      "reading_kwh": 189847.37
+    },
+    {
+      "id": 426,
+      "meter_id": 86,
+      "recorded_at": "2026-09-12T02:34:34Z",
+      "reading_kwh": 107729.27
+    },
+    {
+      "id": 403,
+      "meter_id": 81,
+      "recorded_at": "2026-09-14T10:20:51Z",
+      "reading_kwh": 89586.33
+    },
+    {
+      "id": 297,
+      "meter_id": 60,
+      "recorded_at": "2026-09-14T23:12:02Z",
+      "reading_kwh": 141784.34
+    },
+    {
+      "id": 19,
+      "meter_id": 4,
+      "recorded_at": "2026-09-15T02:02:24Z",
+      "reading_kwh": 100.0
+    },
+    {
+      "id": 91,
+      "meter_id": 19,
+      "recorded_at": "2026-09-11T06:07:36Z",
+      "reading_kwh": 197447.73
+    },
+    {
+      "id": 430,
+      "meter_id": 86,
+      "recorded_at": "2026-09-16T16:54:01Z",
+      "reading_kwh": 109049.03
+    },
+    {
+      "id": 440,
+      "meter_id": 88,
+      "recorded_at": "2026-09-17T14:02:30Z",
+      "reading_kwh": 156551.64
+    },
+    {
+      "id": 268,
+      "meter_id": 54,
+      "recorded_at": "2026-09-14T21:07:19Z",
+      "reading_kwh": 51415.55
+    },
+    {
+      "id": 358,
+      "meter_id": 72,
+      "recorded_at": "2026-09-15T00:20:59Z",
+      "reading_kwh": 84817.4
+    },
+    {
+      "id": 412,
+      "meter_id": 83,
+      "recorded_at": "2026-09-14T16:34:22Z",
+      "reading_kwh": 92006.64
+    },
+    {
+      "id": 472,
+      "meter_id": 95,
+      "recorded_at": "2026-09-13T21:33:25Z",
+      "reading_kwh": 128809.83
+    },
+    {
+      "id": 45,
+      "meter_id": 9,
+      "recorded_at": "2026-09-15T20:50:51Z",
+      "reading_kwh": 23920.33
+    },
+    {
+      "id": 414,
+      "meter_id": 83,
+      "recorded_at": "2026-09-16T07:54:45Z",
+      "reading_kwh": 93361.64
+    },
+    {
+      "id": 128,
+      "meter_id": 26,
+      "recorded_at": "2026-09-15T14:23:02Z",
+      "reading_kwh": 96996.66
+    },
+    {
+      "id": 269,
+      "meter_id": 54,
+      "recorded_at": "2026-09-15T01:49:21Z",
+      "reading_kwh": 51615.84
+    },
+    {
+      "id": 287,
+      "meter_id": 58,
+      "recorded_at": "2026-09-13T00:04:21Z",
+      "reading_kwh": 179257.5
+    },
+    {
+      "id": 311,
+      "meter_id": 63,
+      "recorded_at": "2026-09-12T07:29:09Z",
+      "reading_kwh": 194174.37
+    },
+    {
+      "id": 490,
+      "meter_id": 98,
+      "recorded_at": "2026-09-15T19:46:31Z",
+      "reading_kwh": 181315.78
+    },
+    {
+      "id": 66,
+      "meter_id": 14,
+      "recorded_at": "2026-09-11T00:56:42Z",
+      "reading_kwh": 35705.54
+    },
+    {
+      "id": 396,
+      "meter_id": 80,
+      "recorded_at": "2026-09-11T00:46:45Z",
+      "reading_kwh": 151163.95
+    },
+    {
+      "id": 55,
+      "meter_id": 11,
+      "recorded_at": "2026-09-16T04:47:25Z",
+      "reading_kwh": 171940.16
+    },
+    {
+      "id": 78,
+      "meter_id": 16,
+      "recorded_at": "2026-09-13T22:09:32Z",
+      "reading_kwh": 27175.75
+    },
+    {
+      "id": 53,
+      "meter_id": 11,
+      "recorded_at": "2026-09-15T09:26:20Z",
+      "reading_kwh": 171734.68
+    },
+    {
+      "id": 386,
+      "meter_id": 78,
+      "recorded_at": "2026-09-13T17:44:10Z",
+      "reading_kwh": 151167.56
+    },
+    {
+      "id": 262,
+      "meter_id": 53,
+      "recorded_at": "2026-09-14T07:58:56Z",
+      "reading_kwh": 147698.31
+    },
+    {
+      "id": 154,
+      "meter_id": 31,
+      "recorded_at": "2026-09-16T13:29:07Z",
+      "reading_kwh": 26229.37
+    },
+    {
+      "id": 102,
+      "meter_id": 21,
+      "recorded_at": "2026-09-16T17:40:31Z",
+      "reading_kwh": 82156.28
+    },
+    {
+      "id": 379,
+      "meter_id": 76,
+      "recorded_at": "2026-09-16T08:17:45Z",
+      "reading_kwh": 85579.04
+    },
+    {
+      "id": 12,
+      "meter_id": 3,
+      "recorded_at": "2026-09-13T23:19:47Z",
+      "reading_kwh": 192307.44
+    },
+    {
+      "id": 298,
+      "meter_id": 60,
+      "recorded_at": "2026-09-15T02:18:14Z",
+      "reading_kwh": 141891.7
+    },
+    {
+      "id": 401,
+      "meter_id": 81,
+      "recorded_at": "2026-09-11T20:43:57Z",
+      "reading_kwh": 88769.8
+    },
+    {
+      "id": 488,
+      "meter_id": 98,
+      "recorded_at": "2026-09-14T23:42:05Z",
+      "reading_kwh": 179967.08
+    },
+    {
+      "id": 214,
+      "meter_id": 43,
+      "recorded_at": "2026-09-16T07:06:32Z",
+      "reading_kwh": 129891.33
+    },
+    {
+      "id": 152,
+      "meter_id": 31,
+      "recorded_at": "2026-09-11T21:07:46Z",
+      "reading_kwh": 25286.9
+    },
+    {
+      "id": 201,
+      "meter_id": 41,
+      "recorded_at": "2026-09-11T20:13:12Z",
+      "reading_kwh": 93658.8
+    },
+    {
+      "id": 428,
+      "meter_id": 86,
+      "recorded_at": "2026-09-15T05:21:03Z",
+      "reading_kwh": 108077.18
+    },
+    {
+      "id": 73,
+      "meter_id": 15,
+      "recorded_at": "2026-09-15T12:54:37Z",
+      "reading_kwh": 109434.68
+    },
+    {
+      "id": 29,
+      "meter_id": 6,
+      "recorded_at": "2026-09-13T18:22:48Z",
+      "reading_kwh": 97644.59
+    },
+    {
+      "id": 471,
+      "meter_id": 95,
+      "recorded_at": "2026-09-13T06:56:56Z",
+      "reading_kwh": 128503.69
+    },
+    {
+      "id": 89,
+      "meter_id": 18,
+      "recorded_at": "2026-09-15T20:12:53Z",
+      "reading_kwh": 174744.96
+    },
+    {
+      "id": 30,
+      "meter_id": 6,
+      "recorded_at": "2026-09-15T09:20:01Z",
+      "reading_kwh": 98142.83
+    },
+    {
+      "id": 132,
+      "meter_id": 27,
+      "recorded_at": "2026-09-13T07:18:42Z",
+      "reading_kwh": 20865.01
+    },
+    {
+      "id": 254,
+      "meter_id": 51,
+      "recorded_at": "2026-09-16T12:57:14Z",
+      "reading_kwh": 46778.96
+    },
+    {
+      "id": 241,
+      "meter_id": 49,
+      "recorded_at": "2026-09-11T07:06:51Z",
+      "reading_kwh": 152812.3
+    },
+    {
+      "id": 218,
+      "meter_id": 44,
+      "recorded_at": "2026-09-15T10:05:13Z",
+      "reading_kwh": 145243.91
+    },
+    {
+      "id": 393,
+      "meter_id": 79,
+      "recorded_at": "2026-09-13T12:31:21Z",
+      "reading_kwh": 89112.78
+    },
+    {
+      "id": 282,
+      "meter_id": 57,
+      "recorded_at": "2026-09-13T16:14:11Z",
+      "reading_kwh": 92153.15
+    },
+    {
+      "id": 456,
+      "meter_id": 92,
+      "recorded_at": "2026-09-13T22:59:30Z",
+      "reading_kwh": 184973.86
+    },
+    {
+      "id": 400,
+      "meter_id": 80,
+      "recorded_at": "2026-09-17T16:46:45Z",
+      "reading_kwh": 152507.84
+    },
+    {
+      "id": 495,
+      "meter_id": 99,
+      "recorded_at": "2026-09-14T11:42:18Z",
+      "reading_kwh": 31737.41
+    },
+    {
+      "id": 170,
+      "meter_id": 34,
+      "recorded_at": "2026-09-15T03:52:16Z",
+      "reading_kwh": 70293.86
+    },
+    {
+      "id": 353,
+      "meter_id": 71,
+      "recorded_at": "2026-09-15T11:29:05Z",
+      "reading_kwh": 186861.16
+    },
+    {
+      "id": 450,
+      "meter_id": 90,
+      "recorded_at": "2026-09-16T21:10:57Z",
+      "reading_kwh": 106268.99
+    },
+    {
+      "id": 21,
+      "meter_id": 5,
+      "recorded_at": "2026-09-11T12:39:21Z",
+      "reading_kwh": 41884.7
+    },
+    {
+      "id": 173,
+      "meter_id": 35,
+      "recorded_at": "2026-09-12T02:53:01Z",
+      "reading_kwh": 1798.4
+    },
+    {
+      "id": 477,
+      "meter_id": 96,
+      "recorded_at": "2026-09-15T15:02:29Z",
+      "reading_kwh": 12587.2
+    },
+    {
+      "id": 319,
+      "meter_id": 64,
+      "recorded_at": "2026-09-13T22:44:06Z",
+      "reading_kwh": 41870.04
+    },
+    {
+      "id": 194,
+      "meter_id": 39,
+      "recorded_at": "2026-09-15T23:55:12Z",
+      "reading_kwh": 83971.17
+    },
+    {
+      "id": 236,
+      "meter_id": 48,
+      "recorded_at": "2026-09-12T00:41:54Z",
+      "reading_kwh": 78808.82
+    },
+    {
+      "id": 40,
+      "meter_id": 8,
+      "recorded_at": "2026-09-17T11:34:46Z",
+      "reading_kwh": 92095.69
+    },
+    {
+      "id": 264,
+      "meter_id": 53,
+      "recorded_at": "2026-09-16T21:08:56Z",
+      "reading_kwh": 148380.18
+    },
+    {
+      "id": 227,
+      "meter_id": 46,
+      "recorded_at": "2026-09-14T15:39:28Z",
+      "reading_kwh": 136974.41
+    },
+    {
+      "id": 22,
+      "meter_id": 5,
+      "recorded_at": "2026-09-14T05:02:50Z",
+      "reading_kwh": 42380.86
+    },
+    {
+      "id": 153,
+      "meter_id": 31,
+      "recorded_at": "2026-09-12T05:07:17Z",
+      "reading_kwh": 25566.29
+    },
+    {
+      "id": 146,
+      "meter_id": 30,
+      "recorded_at": "2026-09-13T11:29:41Z",
+      "reading_kwh": 132803.69
+    },
+    {
+      "id": 449,
+      "meter_id": 90,
+      "recorded_at": "2026-09-13T21:42:01Z",
+      "reading_kwh": 105734.22
+    },
+    {
+      "id": 84,
+      "meter_id": 17,
+      "recorded_at": "2026-09-16T18:26:09Z",
+      "reading_kwh": 90462.11
+    },
+    {
+      "id": 185,
+      "meter_id": 37,
+      "recorded_at": "2026-09-17T16:56:04Z",
+      "reading_kwh": 15438.73
+    },
+    {
+      "id": 274,
+      "meter_id": 55,
+      "recorded_at": "2026-09-16T00:50:20Z",
+      "reading_kwh": 157235.95
+    },
+    {
+      "id": 95,
+      "meter_id": 19,
+      "recorded_at": "2026-09-17T17:20:28Z",
+      "reading_kwh": 197916.04
+    },
+    {
+      "id": 41,
+      "meter_id": 9,
+      "recorded_at": "2026-09-11T09:20:59Z",
+      "reading_kwh": 22209.21
+    },
+    {
+      "id": 88,
+      "meter_id": 18,
+      "recorded_at": "2026-09-15T12:45:59Z",
+      "reading_kwh": 174420.02
+    },
+    {
+      "id": 476,
+      "meter_id": 96,
+      "recorded_at": "2026-09-12T20:18:13Z",
+      "reading_kwh": 12421.72
+    },
+    {
+      "id": 108,
+      "meter_id": 22,
+      "recorded_at": "2026-09-15T23:44:31Z",
+      "reading_kwh": 156907.48
+    },
+    {
+      "id": 97,
+      "meter_id": 20,
+      "recorded_at": "2026-09-11T19:37:54Z",
+      "reading_kwh": 172834.12
+    },
+    {
+      "id": 271,
+      "meter_id": 55,
+      "recorded_at": "2026-09-11T18:42:28Z",
+      "reading_kwh": 156338.25
+    },
+    {
+      "id": 368,
+      "meter_id": 74,
+      "recorded_at": "2026-09-13T18:15:33Z",
+      "reading_kwh": 102142.83
+    },
+    {
+      "id": 299,
+      "meter_id": 60,
+      "recorded_at": "2026-09-15T14:25:42Z",
+      "reading_kwh": 142508.15
+    },
+    {
+      "id": 458,
+      "meter_id": 92,
+      "recorded_at": "2026-09-16T13:02:55Z",
+      "reading_kwh": 185666.23
+    },
+    {
+      "id": 375,
+      "meter_id": 75,
+      "recorded_at": "2026-09-17T17:10:38Z",
+      "reading_kwh": 165850.04
+    },
+    {
+      "id": 163,
+      "meter_id": 33,
+      "recorded_at": "2026-09-14T15:12:01Z",
+      "reading_kwh": 45558.57
+    },
+    {
+      "id": 434,
+      "meter_id": 87,
+      "recorded_at": "2026-09-17T00:18:56Z",
+      "reading_kwh": 153472.76
+    },
+    {
+      "id": 455,
+      "meter_id": 91,
+      "recorded_at": "2026-09-16T14:24:23Z",
+      "reading_kwh": 53725.3
+    },
+    {
+      "id": 18,
+      "meter_id": 4,
+      "recorded_at": "2026-09-12T05:46:15Z",
+      "reading_kwh": 99.9
+    },
+    {
+      "id": 103,
+      "meter_id": 21,
+      "recorded_at": "2026-09-17T13:03:47Z",
+      "reading_kwh": 82689.83
+    },
+    {
+      "id": 286,
+      "meter_id": 58,
+      "recorded_at": "2026-09-12T13:10:27Z",
+      "reading_kwh": 179222.15
+    },
+    {
+      "id": 145,
+      "meter_id": 29,
+      "recorded_at": "2026-09-17T21:55:47Z",
+      "reading_kwh": 29899.32
+    },
+    {
+      "id": 37,
+      "meter_id": 8,
+      "recorded_at": "2026-09-13T23:18:22Z",
+      "reading_kwh": 91309.46
+    },
+    {
+      "id": 223,
+      "meter_id": 45,
+      "recorded_at": "2026-09-14T23:00:27Z",
+      "reading_kwh": 136137.37
+    },
+    {
+      "id": 295,
+      "meter_id": 59,
+      "recorded_at": "2026-09-16T14:28:45Z",
+      "reading_kwh": 18417.12
+    },
+    {
+      "id": 4,
+      "meter_id": 3,
+      "recorded_at": "2026-09-11T09:15:26Z",
+      "reading_kwh": 189297.49
+    },
+    {
+      "id": 364,
+      "meter_id": 73,
+      "recorded_at": "2026-09-13T15:01:35Z",
+      "reading_kwh": 163891.1
+    },
+    {
+      "id": 308,
+      "meter_id": 62,
+      "recorded_at": "2026-09-12T20:23:04Z",
+      "reading_kwh": 190132.01
+    },
+    {
+      "id": 159,
+      "meter_id": 32,
+      "recorded_at": "2026-09-15T05:39:22Z",
+      "reading_kwh": 97119.02
+    },
+    {
+      "id": 140,
+      "meter_id": 28,
+      "recorded_at": "2026-09-17T10:42:06Z",
+      "reading_kwh": 27611.7
+    },
+    {
+      "id": 93,
+      "meter_id": 19,
+      "recorded_at": "2026-09-13T19:01:32Z",
+      "reading_kwh": 197745.81
+    },
+    {
+      "id": 15,
+      "meter_id": 3,
+      "recorded_at": "2026-09-17T23:59:59Z",
+      "reading_kwh": 193157.68
+    },
+    {
+      "id": 137,
+      "meter_id": 28,
+      "recorded_at": "2026-09-12T21:51:20Z",
+      "reading_kwh": 27124.51
+    },
+    {
+      "id": 377,
+      "meter_id": 76,
+      "recorded_at": "2026-09-13T05:41:59Z",
+      "reading_kwh": 85343.85
+    },
+    {
+      "id": 220,
+      "meter_id": 44,
+      "recorded_at": "2026-09-17T12:50:07Z",
+      "reading_kwh": 145818.72
+    },
+    {
+      "id": 116,
+      "meter_id": 24,
+      "recorded_at": "2026-09-11T21:57:26Z",
+      "reading_kwh": 184658.53
+    },
+    {
+      "id": 143,
+      "meter_id": 29,
+      "recorded_at": "2026-09-13T23:42:55Z",
+      "reading_kwh": 28799.41
+    },
+    {
+      "id": 420,
+      "meter_id": 84,
+      "recorded_at": "2026-09-16T05:50:14Z",
+      "reading_kwh": 9479.04
+    },
+    {
+      "id": 419,
+      "meter_id": 84,
+      "recorded_at": "2026-09-14T21:52:58Z",
+      "reading_kwh": 9125.78
+    },
+    {
+      "id": 180,
+      "meter_id": 36,
+      "recorded_at": "2026-09-17T19:22:33Z",
+      "reading_kwh": 38594.99
+    },
+    {
+      "id": 408,
+      "meter_id": 82,
+      "recorded_at": "2026-09-12T19:23:46Z",
+      "reading_kwh": 20631.88
+    },
+    {
+      "id": 115,
+      "meter_id": 23,
+      "recorded_at": "2026-09-15T02:49:44Z",
+      "reading_kwh": 181512.86
+    },
+    {
+      "id": 247,
+      "meter_id": 50,
+      "recorded_at": "2026-09-12T07:02:44Z",
+      "reading_kwh": 142942.23
+    },
+    {
+      "id": 438,
+      "meter_id": 88,
+      "recorded_at": "2026-09-15T21:43:28Z",
+      "reading_kwh": 155626.24
+    },
+    {
+      "id": 407,
+      "meter_id": 82,
+      "recorded_at": "2026-09-12T17:25:45Z",
+      "reading_kwh": 20228.68
+    },
+    {
+      "id": 260,
+      "meter_id": 52,
+      "recorded_at": "2026-09-17T15:34:45Z",
+      "reading_kwh": 55280.42
+    },
+    {
+      "id": 54,
+      "meter_id": 11,
+      "recorded_at": "2026-09-15T20:20:01Z",
+      "reading_kwh": 171796.44
+    },
+    {
+      "id": 181,
+      "meter_id": 37,
+      "recorded_at": "2026-09-12T13:07:16Z",
+      "reading_kwh": 14035.43
+    },
+    {
+      "id": 160,
+      "meter_id": 32,
+      "recorded_at": "2026-09-15T11:37:57Z",
+      "reading_kwh": 97515.54
+    },
+    {
+      "id": 148,
+      "meter_id": 30,
+      "recorded_at": "2026-09-14T03:57:12Z",
+      "reading_kwh": 133368.46
+    },
+    {
+      "id": 367,
+      "meter_id": 74,
+      "recorded_at": "2026-09-13T08:32:27Z",
+      "reading_kwh": 101442.72
+    },
+    {
+      "id": 217,
+      "meter_id": 44,
+      "recorded_at": "2026-09-13T09:23:26Z",
+      "reading_kwh": 144811.11
+    },
+    {
+      "id": 182,
+      "meter_id": 37,
+      "recorded_at": "2026-09-12T19:08:07Z",
+      "reading_kwh": 14439.48
+    },
+    {
+      "id": 211,
+      "meter_id": 43,
+      "recorded_at": "2026-09-12T09:41:03Z",
+      "reading_kwh": 129250.13
+    },
+    {
+      "id": 411,
+      "meter_id": 83,
+      "recorded_at": "2026-09-12T12:13:14Z",
+      "reading_kwh": 91350.66
+    },
+    {
+      "id": 389,
+      "meter_id": 78,
+      "recorded_at": "2026-09-17T08:12:37Z",
+      "reading_kwh": 152699.68
+    },
+    {
+      "id": 31,
+      "meter_id": 7,
+      "recorded_at": "2026-09-12T23:22:35Z",
+      "reading_kwh": 119209.06
+    },
+    {
+      "id": 285,
+      "meter_id": 57,
+      "recorded_at": "2026-09-17T15:04:21Z",
+      "reading_kwh": 93337.44
+    },
+    {
+      "id": 383,
+      "meter_id": 77,
+      "recorded_at": "2026-09-12T19:27:25Z",
+      "reading_kwh": 189367.52
+    },
+    {
+      "id": 483,
+      "meter_id": 97,
+      "recorded_at": "2026-09-16T08:14:54Z",
+      "reading_kwh": 49110.23
+    },
+    {
+      "id": 475,
+      "meter_id": 95,
+      "recorded_at": "2026-09-17T22:32:53Z",
+      "reading_kwh": 129822.51
+    },
+    {
+      "id": 222,
+      "meter_id": 45,
+      "recorded_at": "2026-09-14T18:05:08Z",
+      "reading_kwh": 135410.69
+    },
+    {
+      "id": 48,
+      "meter_id": 10,
+      "recorded_at": "2026-09-15T19:14:10Z",
+      "reading_kwh": 47911.22
+    },
+    {
+      "id": 44,
+      "meter_id": 9,
+      "recorded_at": "2026-09-14T19:52:56Z",
+      "reading_kwh": 23641.63
+    },
+    {
+      "id": 409,
+      "meter_id": 82,
+      "recorded_at": "2026-09-13T17:28:49Z",
+      "reading_kwh": 21377.96
+    },
+    {
+      "id": 35,
+      "meter_id": 7,
+      "recorded_at": "2026-09-16T12:03:55Z",
+      "reading_kwh": 120151.52
+    },
+    {
+      "id": 243,
+      "meter_id": 49,
+      "recorded_at": "2026-09-11T21:12:45Z",
+      "reading_kwh": 153610.38
+    },
+    {
+      "id": 79,
+      "meter_id": 16,
+      "recorded_at": "2026-09-14T17:34:11Z",
+      "reading_kwh": 27266.47
+    },
+    {
+      "id": 192,
+      "meter_id": 39,
+      "recorded_at": "2026-09-13T04:14:33Z",
+      "reading_kwh": 83620.81
+    },
+    {
+      "id": 131,
+      "meter_id": 27,
+      "recorded_at": "2026-09-11T17:02:04Z",
+      "reading_kwh": 20453.96
+    },
+    {
+      "id": 303,
+      "meter_id": 61,
+      "recorded_at": "2026-09-13T17:18:33Z",
+      "reading_kwh": 13873.18
+    },
+    {
+      "id": 341,
+      "meter_id": 69,
+      "recorded_at": "2026-09-11T02:57:24Z",
+      "reading_kwh": 173351.33
+    },
+    {
+      "id": 161,
+      "meter_id": 33,
+      "recorded_at": "2026-09-11T02:16:43Z",
+      "reading_kwh": 45060.62
+    },
+    {
+      "id": 49,
+      "meter_id": 10,
+      "recorded_at": "2026-09-16T13:39:01Z",
+      "reading_kwh": 48617.67
+    },
+    {
+      "id": 437,
+      "meter_id": 88,
+      "recorded_at": "2026-09-12T09:45:52Z",
+      "reading_kwh": 155555.19
+    },
+    {
+      "id": 205,
+      "meter_id": 41,
+      "recorded_at": "2026-09-15T20:03:41Z",
+      "reading_kwh": 96013.45
+    },
+    {
+      "id": 406,
+      "meter_id": 82,
+      "recorded_at": "2026-09-11T20:47:58Z",
+      "reading_kwh": 20011.2
+    },
+    {
+      "id": 174,
+      "meter_id": 35,
+      "recorded_at": "2026-09-14T08:35:20Z",
+      "reading_kwh": 2141.76
+    },
+    {
+      "id": 212,
+      "meter_id": 43,
+      "recorded_at": "2026-09-14T19:21:54Z",
+      "reading_kwh": 129499.28
+    },
+    {
+      "id": 117,
+      "meter_id": 24,
+      "recorded_at": "2026-09-14T00:45:41Z",
+      "reading_kwh": 184786.87
+    },
+    {
+      "id": 355,
+      "meter_id": 71,
+      "recorded_at": "2026-09-16T17:50:49Z",
+      "reading_kwh": 188140.29
+    },
+    {
+      "id": 317,
+      "meter_id": 64,
+      "recorded_at": "2026-09-12T05:40:51Z",
+      "reading_kwh": 41361.11
+    },
+    {
+      "id": 391,
+      "meter_id": 79,
+      "recorded_at": "2026-09-11T17:32:36Z",
+      "reading_kwh": 88800.5
+    },
+    {
+      "id": 283,
+      "meter_id": 57,
+      "recorded_at": "2026-09-16T22:12:25Z",
+      "reading_kwh": 92789.7
+    },
+    {
+      "id": 363,
+      "meter_id": 73,
+      "recorded_at": "2026-09-13T07:47:25Z",
+      "reading_kwh": 163520.16
+    },
+    {
+      "id": 421,
+      "meter_id": 85,
+      "recorded_at": "2026-09-11T11:43:05Z",
+      "reading_kwh": 148387.56
+    },
+    {
+      "id": 221,
+      "meter_id": 45,
+      "recorded_at": "2026-09-14T15:28:30Z",
+      "reading_kwh": 135023.16
+    },
+    {
+      "id": 310,
+      "meter_id": 62,
+      "recorded_at": "2026-09-16T17:56:04Z",
+      "reading_kwh": 190951.4
+    },
+    {
+      "id": 259,
+      "meter_id": 52,
+      "recorded_at": "2026-09-17T03:01:38Z",
+      "reading_kwh": 54956.35
+    },
+    {
+      "id": 410,
+      "meter_id": 82,
+      "recorded_at": "2026-09-14T05:22:15Z",
+      "reading_kwh": 21756.25
+    },
+    {
+      "id": 151,
+      "meter_id": 31,
+      "recorded_at": "2026-09-11T02:42:47Z",
+      "reading_kwh": 24582.21
+    },
+    {
+      "id": 272,
+      "meter_id": 55,
+      "recorded_at": "2026-09-15T00:22:34Z",
+      "reading_kwh": 156883.22
+    },
+    {
+      "id": 387,
+      "meter_id": 78,
+      "recorded_at": "2026-09-15T14:47:35Z",
+      "reading_kwh": 151747.85
+    },
+    {
+      "id": 486,
+      "meter_id": 98,
+      "recorded_at": "2026-09-11T23:23:36Z",
+      "reading_kwh": 179053.93
+    },
+    {
+      "id": 167,
+      "meter_id": 34,
+      "recorded_at": "2026-09-13T13:21:01Z",
+      "reading_kwh": 68661.93
+    },
+    {
+      "id": 281,
+      "meter_id": 57,
+      "recorded_at": "2026-09-13T15:54:40Z",
+      "reading_kwh": 91581.89
+    },
+    {
+      "id": 487,
+      "meter_id": 98,
+      "recorded_at": "2026-09-14T05:11:36Z",
+      "reading_kwh": 179552.02
+    },
+    {
+      "id": 325,
+      "meter_id": 65,
+      "recorded_at": "2026-09-17T03:22:18Z",
+      "reading_kwh": 6145.02
+    },
+    {
+      "id": 320,
+      "meter_id": 64,
+      "recorded_at": "2026-09-14T15:50:32Z",
+      "reading_kwh": 42568.32
+    },
+    {
+      "id": 141,
+      "meter_id": 29,
+      "recorded_at": "2026-09-11T11:34:32Z",
+      "reading_kwh": 27509.06
+    },
+    {
+      "id": 366,
+      "meter_id": 74,
+      "recorded_at": "2026-09-13T04:15:58Z",
+      "reading_kwh": 101424.17
+    },
+    {
+      "id": 34,
+      "meter_id": 7,
+      "recorded_at": "2026-09-15T11:49:22Z",
+      "reading_kwh": 119927.2
+    },
+    {
+      "id": 388,
+      "meter_id": 78,
+      "recorded_at": "2026-09-16T01:13:10Z",
+      "reading_kwh": 152137.6
+    },
+    {
+      "id": 312,
+      "meter_id": 63,
+      "recorded_at": "2026-09-12T09:21:36Z",
+      "reading_kwh": 194208.03
+    },
+    {
+      "id": 165,
+      "meter_id": 33,
+      "recorded_at": "2026-09-17T17:32:22Z",
+      "reading_kwh": 46424.0
+    },
+    {
+      "id": 42,
+      "meter_id": 9,
+      "recorded_at": "2026-09-13T18:42:54Z",
+      "reading_kwh": 22485.75
+    },
+    {
+      "id": 38,
+      "meter_id": 8,
+      "recorded_at": "2026-09-15T14:31:27Z",
+      "reading_kwh": 91597.32
+    },
+    {
+      "id": 424,
+      "meter_id": 85,
+      "recorded_at": "2026-09-17T07:09:33Z",
+      "reading_kwh": 149561.37
+    },
+    {
+      "id": 252,
+      "meter_id": 51,
+      "recorded_at": "2026-09-12T11:20:53Z",
+      "reading_kwh": 45350.19
+    },
+    {
+      "id": 356,
+      "meter_id": 72,
+      "recorded_at": "2026-09-14T06:54:36Z",
+      "reading_kwh": 84357.07
+    },
+    {
+      "id": 219,
+      "meter_id": 44,
+      "recorded_at": "2026-09-17T07:26:15Z",
+      "reading_kwh": 145655.37
+    },
+    {
+      "id": 206,
+      "meter_id": 42,
+      "recorded_at": "2026-09-11T08:02:21Z",
+      "reading_kwh": 194813.58
+    },
+    {
+      "id": 246,
+      "meter_id": 50,
+      "recorded_at": "2026-09-11T01:36:54Z",
+      "reading_kwh": 142655.39
+    },
+    {
+      "id": 415,
+      "meter_id": 83,
+      "recorded_at": "2026-09-16T16:31:05Z",
+      "reading_kwh": 93935.42
+    },
+    {
+      "id": 16,
+      "meter_id": 4,
+      "recorded_at": "2026-09-12T03:00:51Z",
+      "reading_kwh": 9.5
+    },
+    {
+      "id": 330,
+      "meter_id": 66,
+      "recorded_at": "2026-09-16T13:54:31Z",
+      "reading_kwh": 177371.61
+    },
+    {
+      "id": 235,
+      "meter_id": 47,
+      "recorded_at": "2026-09-16T15:26:15Z",
+      "reading_kwh": 150156.96
+    },
+    {
+      "id": 463,
+      "meter_id": 93,
+      "recorded_at": "2026-09-14T08:27:46Z",
+      "reading_kwh": 170722.05
+    },
+    {
+      "id": 267,
+      "meter_id": 54,
+      "recorded_at": "2026-09-12T16:18:15Z",
+      "reading_kwh": 50913.49
+    },
+    {
+      "id": 338,
+      "meter_id": 68,
+      "recorded_at": "2026-09-15T01:58:57Z",
+      "reading_kwh": 61932.41
+    },
+    {
+      "id": 23,
+      "meter_id": 5,
+      "recorded_at": "2026-09-15T04:11:03Z",
+      "reading_kwh": 42484.15
+    },
+    {
+      "id": 315,
+      "meter_id": 63,
+      "recorded_at": "2026-09-14T18:35:47Z",
+      "reading_kwh": 195628.76
+    },
+    {
+      "id": 470,
+      "meter_id": 94,
+      "recorded_at": "2026-09-17T12:52:22Z",
+      "reading_kwh": 118170.23
+    },
+    {
+      "id": 258,
+      "meter_id": 52,
+      "recorded_at": "2026-09-16T09:52:54Z",
+      "reading_kwh": 54616.62
+    },
+    {
+      "id": 232,
+      "meter_id": 47,
+      "recorded_at": "2026-09-14T21:51:42Z",
+      "reading_kwh": 148644.31
+    },
+    {
+      "id": 481,
+      "meter_id": 97,
+      "recorded_at": "2026-09-11T04:28:13Z",
+      "reading_kwh": 48370.53
+    },
+    {
+      "id": 304,
+      "meter_id": 61,
+      "recorded_at": "2026-09-15T05:56:00Z",
+      "reading_kwh": 14134.49
+    },
+    {
+      "id": 263,
+      "meter_id": 53,
+      "recorded_at": "2026-09-14T08:46:22Z",
+      "reading_kwh": 148072.82
+    },
+    {
+      "id": 466,
+      "meter_id": 94,
+      "recorded_at": "2026-09-12T19:16:53Z",
+      "reading_kwh": 115804.37
+    },
+    {
+      "id": 230,
+      "meter_id": 46,
+      "recorded_at": "2026-09-17T21:45:50Z",
+      "reading_kwh": 137749.32
+    },
+    {
+      "id": 244,
+      "meter_id": 49,
+      "recorded_at": "2026-09-13T23:18:56Z",
+      "reading_kwh": 154113.67
+    },
+    {
+      "id": 468,
+      "meter_id": 94,
+      "recorded_at": "2026-09-16T21:04:28Z",
+      "reading_kwh": 116963.52
+    },
+    {
+      "id": 59,
+      "meter_id": 12,
+      "recorded_at": "2026-09-15T16:04:17Z",
+      "reading_kwh": 129686.74
+    },
+    {
+      "id": 270,
+      "meter_id": 54,
+      "recorded_at": "2026-09-17T13:19:50Z",
+      "reading_kwh": 51896.28
+    },
+    {
+      "id": 216,
+      "meter_id": 44,
+      "recorded_at": "2026-09-11T00:29:33Z",
+      "reading_kwh": 144719.39
+    },
+    {
+      "id": 399,
+      "meter_id": 80,
+      "recorded_at": "2026-09-15T22:59:21Z",
+      "reading_kwh": 152204.43
+    },
+    {
+      "id": 27,
+      "meter_id": 6,
+      "recorded_at": "2026-09-11T20:15:33Z",
+      "reading_kwh": 97207.07
+    },
+    {
+      "id": 496,
+      "meter_id": 100,
+      "recorded_at": "2026-09-11T08:25:53Z",
+      "reading_kwh": 18830.48
+    },
+    {
+      "id": 380,
+      "meter_id": 76,
+      "recorded_at": "2026-09-16T19:26:08Z",
+      "reading_kwh": 86104.26
+    },
+    {
+      "id": 9,
+      "meter_id": 3,
+      "recorded_at": "2026-09-13T15:40:58Z",
+      "reading_kwh": 191098.26
+    },
+    {
+      "id": 166,
+      "meter_id": 34,
+      "recorded_at": "2026-09-12T21:16:38Z",
+      "reading_kwh": 68315.92
+    },
+    {
+      "id": 302,
+      "meter_id": 61,
+      "recorded_at": "2026-09-11T19:59:11Z",
+      "reading_kwh": 13549.06
+    },
+    {
+      "id": 122,
+      "meter_id": 25,
+      "recorded_at": "2026-09-13T00:26:29Z",
+      "reading_kwh": 161797.25
+    },
+    {
+      "id": 416,
+      "meter_id": 84,
+      "recorded_at": "2026-09-11T11:36:37Z",
+      "reading_kwh": 8678.81
+    },
+    {
+      "id": 497,
+      "meter_id": 100,
+      "recorded_at": "2026-09-11T13:23:45Z",
+      "reading_kwh": 19215.01
+    },
+    {
+      "id": 68,
+      "meter_id": 14,
+      "recorded_at": "2026-09-14T04:43:03Z",
+      "reading_kwh": 36762.13
+    },
+    {
+      "id": 14,
+      "meter_id": 3,
+      "recorded_at": "2026-09-17T03:11:43Z",
+      "reading_kwh": 192875.46
+    },
+    {
+      "id": 339,
+      "meter_id": 68,
+      "recorded_at": "2026-09-15T14:23:19Z",
+      "reading_kwh": 62397.49
+    },
+    {
+      "id": 57,
+      "meter_id": 12,
+      "recorded_at": "2026-09-12T20:31:05Z",
+      "reading_kwh": 128663.67
+    },
+    {
+      "id": 90,
+      "meter_id": 18,
+      "recorded_at": "2026-09-16T07:36:21Z",
+      "reading_kwh": 175039.48
+    },
+    {
+      "id": 129,
+      "meter_id": 26,
+      "recorded_at": "2026-09-15T17:43:06Z",
+      "reading_kwh": 97634.55
+    },
+    {
+      "id": 443,
+      "meter_id": 89,
+      "recorded_at": "2026-09-15T09:22:33Z",
+      "reading_kwh": 90500.81
+    },
+    {
+      "id": 67,
+      "meter_id": 14,
+      "recorded_at": "2026-09-13T04:02:10Z",
+      "reading_kwh": 36096.72
+    },
+    {
+      "id": 75,
+      "meter_id": 15,
+      "recorded_at": "2026-09-17T13:06:19Z",
+      "reading_kwh": 110057.08
+    },
+    {
+      "id": 413,
+      "meter_id": 83,
+      "recorded_at": "2026-09-15T21:14:20Z",
+      "reading_kwh": 92714.41
+    },
+    {
+      "id": 2,
+      "meter_id": 3,
+      "recorded_at": "2026-09-11T00:00:00Z",
+      "reading_kwh": 188322.59
+    },
+    {
+      "id": 404,
+      "meter_id": 81,
+      "recorded_at": "2026-09-14T11:54:59Z",
+      "reading_kwh": 89736.77
+    },
+    {
+      "id": 76,
+      "meter_id": 16,
+      "recorded_at": "2026-09-11T16:52:18Z",
+      "reading_kwh": 26426.48
+    },
+    {
+      "id": 169,
+      "meter_id": 34,
+      "recorded_at": "2026-09-14T10:04:02Z",
+      "reading_kwh": 69964.71
+    },
+    {
+      "id": 479,
+      "meter_id": 96,
+      "recorded_at": "2026-09-16T17:45:51Z",
+      "reading_kwh": 13680.73
+    },
+    {
+      "id": 111,
+      "meter_id": 23,
+      "recorded_at": "2026-09-12T07:49:36Z",
+      "reading_kwh": 179947.63
+    },
+    {
+      "id": 441,
+      "meter_id": 89,
+      "recorded_at": "2026-09-11T15:01:58Z",
+      "reading_kwh": 89609.2
+    },
+    {
+      "id": 107,
+      "meter_id": 22,
+      "recorded_at": "2026-09-15T07:11:47Z",
+      "reading_kwh": 156778.48
+    },
+    {
+      "id": 284,
+      "meter_id": 57,
+      "recorded_at": "2026-09-17T12:46:05Z",
+      "reading_kwh": 92827.75
+    },
+    {
+      "id": 392,
+      "meter_id": 79,
+      "recorded_at": "2026-09-12T04:54:13Z",
+      "reading_kwh": 88906.92
+    },
+    {
+      "id": 36,
+      "meter_id": 8,
+      "recorded_at": "2026-09-12T23:35:39Z",
+      "reading_kwh": 90579.45
+    },
+    {
+      "id": 106,
+      "meter_id": 22,
+      "recorded_at": "2026-09-12T04:13:59Z",
+      "reading_kwh": 156707.47
+    },
+    {
+      "id": 290,
+      "meter_id": 58,
+      "recorded_at": "2026-09-16T16:08:14Z",
+      "reading_kwh": 180549.25
+    },
+    {
+      "id": 65,
+      "meter_id": 13,
+      "recorded_at": "2026-09-17T12:24:14Z",
+      "reading_kwh": 39187.27
+    },
+    {
+      "id": 125,
+      "meter_id": 25,
+      "recorded_at": "2026-09-16T21:27:11Z",
+      "reading_kwh": 162615.57
+    },
+    {
+      "id": 171,
+      "meter_id": 35,
+      "recorded_at": "2026-09-11T12:50:28Z",
+      "reading_kwh": 1189.73
+    },
+    {
+      "id": 26,
+      "meter_id": 6,
+      "recorded_at": "2026-09-11T13:20:50Z",
+      "reading_kwh": 97102.48
+    },
+    {
+      "id": 11,
+      "meter_id": 3,
+      "recorded_at": "2026-09-13T19:46:02Z",
+      "reading_kwh": 191861.46
+    },
+    {
+      "id": 306,
+      "meter_id": 62,
+      "recorded_at": "2026-09-12T09:19:06Z",
+      "reading_kwh": 189236.78
+    },
+    {
+      "id": 328,
+      "meter_id": 66,
+      "recorded_at": "2026-09-15T09:29:41Z",
+      "reading_kwh": 176128.56
+    },
+    {
+      "id": 329,
+      "meter_id": 66,
+      "recorded_at": "2026-09-16T06:50:41Z",
+      "reading_kwh": 176762.29
+    },
+    {
+      "id": 109,
+      "meter_id": 22,
+      "recorded_at": "2026-09-16T03:22:34Z",
+      "reading_kwh": 156986.93
+    },
+    {
+      "id": 340,
+      "meter_id": 68,
+      "recorded_at": "2026-09-16T23:58:37Z",
+      "reading_kwh": 62736.12
+    },
+    {
+      "id": 500,
+      "meter_id": 100,
+      "recorded_at": "2026-09-14T22:28:51Z",
+      "reading_kwh": 20740.69
+    },
+    {
+      "id": 448,
+      "meter_id": 90,
+      "recorded_at": "2026-09-12T22:07:51Z",
+      "reading_kwh": 105010.37
+    },
+    {
+      "id": 63,
+      "meter_id": 13,
+      "recorded_at": "2026-09-14T05:43:06Z",
+      "reading_kwh": 38385.25
+    },
+    {
+      "id": 98,
+      "meter_id": 20,
+      "recorded_at": "2026-09-11T20:38:19Z",
+      "reading_kwh": 173199.13
+    },
+    {
+      "id": 142,
+      "meter_id": 29,
+      "recorded_at": "2026-09-12T10:55:10Z",
+      "reading_kwh": 28058.55
+    },
+    {
+      "id": 204,
+      "meter_id": 41,
+      "recorded_at": "2026-09-14T23:36:47Z",
+      "reading_kwh": 95310.62
+    },
+    {
+      "id": 32,
+      "meter_id": 7,
+      "recorded_at": "2026-09-14T08:57:56Z",
+      "reading_kwh": 119483.67
+    },
+    {
+      "id": 184,
+      "meter_id": 37,
+      "recorded_at": "2026-09-16T05:11:04Z",
+      "reading_kwh": 14969.74
+    },
+    {
+      "id": 331,
+      "meter_id": 67,
+      "recorded_at": "2026-09-12T01:14:32Z",
+      "reading_kwh": 93592.78
+    },
+    {
+      "id": 279,
+      "meter_id": 56,
+      "recorded_at": "2026-09-16T18:55:49Z",
+      "reading_kwh": 3342.02
+    },
+    {
+      "id": 492,
+      "meter_id": 99,
+      "recorded_at": "2026-09-11T19:55:44Z",
+      "reading_kwh": 30895.09
+    },
+    {
+      "id": 352,
+      "meter_id": 71,
+      "recorded_at": "2026-09-14T17:11:20Z",
+      "reading_kwh": 186410.59
+    },
+    {
+      "id": 435,
+      "meter_id": 87,
+      "recorded_at": "2026-09-17T16:13:38Z",
+      "reading_kwh": 153896.49
+    },
+    {
+      "id": 186,
+      "meter_id": 38,
+      "recorded_at": "2026-09-12T05:56:26Z",
+      "reading_kwh": 136357.62
+    },
+    {
+      "id": 452,
+      "meter_id": 91,
+      "recorded_at": "2026-09-12T09:02:52Z",
+      "reading_kwh": 52317.37
+    },
+    {
+      "id": 425,
+      "meter_id": 85,
+      "recorded_at": "2026-09-17T23:50:38Z",
+      "reading_kwh": 150205.89
+    },
+    {
+      "id": 228,
+      "meter_id": 46,
+      "recorded_at": "2026-09-15T14:26:02Z",
+      "reading_kwh": 136974.95
+    },
+    {
+      "id": 112,
+      "meter_id": 23,
+      "recorded_at": "2026-09-13T07:24:08Z",
+      "reading_kwh": 180535.64
+    },
+    {
+      "id": 447,
+      "meter_id": 90,
+      "recorded_at": "2026-09-12T11:22:04Z",
+      "reading_kwh": 104992.44
+    },
+    {
+      "id": 354,
+      "meter_id": 71,
+      "recorded_at": "2026-09-15T21:47:25Z",
+      "reading_kwh": 187418.88
+    },
+    {
+      "id": 17,
+      "meter_id": 4,
+      "recorded_at": "2026-09-12T04:10:14Z",
+      "reading_kwh": 10.0
+    },
+    {
+      "id": 144,
+      "meter_id": 29,
+      "recorded_at": "2026-09-15T21:36:29Z",
+      "reading_kwh": 29484.64
+    },
+    {
+      "id": 209,
+      "meter_id": 42,
+      "recorded_at": "2026-09-14T04:05:03Z",
+      "reading_kwh": 195353.78
+    },
+    {
+      "id": 316,
+      "meter_id": 64,
+      "recorded_at": "2026-09-11T22:08:08Z",
+      "reading_kwh": 40619.33
+    },
+    {
+      "id": 251,
+      "meter_id": 51,
+      "recorded_at": "2026-09-11T14:37:37Z",
+      "reading_kwh": 44741.17
+    },
+    {
+      "id": 427,
+      "meter_id": 86,
+      "recorded_at": "2026-09-15T01:04:59Z",
+      "reading_kwh": 107866.38
+    },
+    {
+      "id": 51,
+      "meter_id": 11,
+      "recorded_at": "2026-09-12T16:17:31Z",
+      "reading_kwh": 170968.65
+    },
+    {
+      "id": 336,
+      "meter_id": 68,
+      "recorded_at": "2026-09-11T08:21:34Z",
+      "reading_kwh": 61015.33
+    },
+    {
+      "id": 213,
+      "meter_id": 43,
+      "recorded_at": "2026-09-15T04:41:19Z",
+      "reading_kwh": 129833.15
+    },
+    {
+      "id": 80,
+      "meter_id": 16,
+      "recorded_at": "2026-09-17T21:15:16Z",
+      "reading_kwh": 27964.7
+    },
+    {
+      "id": 373,
+      "meter_id": 75,
+      "recorded_at": "2026-09-12T12:46:53Z",
+      "reading_kwh": 164862.1
+    },
+    {
+      "id": 445,
+      "meter_id": 89,
+      "recorded_at": "2026-09-17T01:11:47Z",
+      "reading_kwh": 91452.59
+    },
+    {
+      "id": 301,
+      "meter_id": 61,
+      "recorded_at": "2026-09-11T15:10:15Z",
+      "reading_kwh": 13508.38
+    },
+    {
+      "id": 215,
+      "meter_id": 43,
+      "recorded_at": "2026-09-17T04:57:45Z",
+      "reading_kwh": 130462.88
+    },
+    {
+      "id": 277,
+      "meter_id": 56,
+      "recorded_at": "2026-09-15T14:47:38Z",
+      "reading_kwh": 2439.45
+    },
+    {
+      "id": 357,
+      "meter_id": 72,
+      "recorded_at": "2026-09-14T17:18:37Z",
+      "reading_kwh": 84659.25
+    },
+    {
+      "id": 381,
+      "meter_id": 77,
+      "recorded_at": "2026-09-11T15:36:53Z",
+      "reading_kwh": 188857.62
+    },
+    {
+      "id": 344,
+      "meter_id": 69,
+      "recorded_at": "2026-09-15T03:07:51Z",
+      "reading_kwh": 174030.34
+    },
+    {
+      "id": 190,
+      "meter_id": 38,
+      "recorded_at": "2026-09-17T19:04:40Z",
+      "reading_kwh": 137315.57
+    },
+    {
+      "id": 493,
+      "meter_id": 99,
+      "recorded_at": "2026-09-13T18:15:36Z",
+      "reading_kwh": 31024.13
+    },
+    {
+      "id": 199,
+      "meter_id": 40,
+      "recorded_at": "2026-09-16T14:04:22Z",
+      "reading_kwh": 118316.43
+    },
+    {
+      "id": 70,
+      "meter_id": 14,
+      "recorded_at": "2026-09-17T03:52:22Z",
+      "reading_kwh": 37223.18
+    },
+    {
+      "id": 276,
+      "meter_id": 56,
+      "recorded_at": "2026-09-11T05:41:20Z",
+      "reading_kwh": 1978.39
+    },
+    {
+      "id": 121,
+      "meter_id": 25,
+      "recorded_at": "2026-09-12T03:09:53Z",
+      "reading_kwh": 161517.08
+    },
+    {
+      "id": 50,
+      "meter_id": 10,
+      "recorded_at": "2026-09-17T01:24:41Z",
+      "reading_kwh": 48962.06
+    },
+    {
+      "id": 460,
+      "meter_id": 92,
+      "recorded_at": "2026-09-16T20:32:17Z",
+      "reading_kwh": 186582.24
+    },
+    {
+      "id": 253,
+      "meter_id": 51,
+      "recorded_at": "2026-09-14T00:35:03Z",
+      "reading_kwh": 46046.36
+    },
+    {
+      "id": 156,
+      "meter_id": 32,
+      "recorded_at": "2026-09-11T20:02:12Z",
+      "reading_kwh": 95625.9
+    },
+    {
+      "id": 20,
+      "meter_id": 4,
+      "recorded_at": "2026-09-15T14:39:42Z",
+      "reading_kwh": 100.25
+    },
+    {
+      "id": 24,
+      "meter_id": 5,
+      "recorded_at": "2026-09-16T13:49:01Z",
+      "reading_kwh": 43207.73
+    },
+    {
+      "id": 72,
+      "meter_id": 15,
+      "recorded_at": "2026-09-12T23:03:16Z",
+      "reading_kwh": 109409.15
+    },
+    {
+      "id": 60,
+      "meter_id": 12,
+      "recorded_at": "2026-09-16T02:57:46Z",
+      "reading_kwh": 130411.87
+    },
+    {
+      "id": 210,
+      "meter_id": 42,
+      "recorded_at": "2026-09-15T00:27:15Z",
+      "reading_kwh": 195923.38
+    },
+    {
+      "id": 333,
+      "meter_id": 67,
+      "recorded_at": "2026-09-14T06:10:33Z",
+      "reading_kwh": 94503.3
+    },
+    {
+      "id": 155,
+      "meter_id": 31,
+      "recorded_at": "2026-09-17T19:59:01Z",
+      "reading_kwh": 26576.98
+    },
+    {
+      "id": 359,
+      "meter_id": 72,
+      "recorded_at": "2026-09-15T06:28:20Z",
+      "reading_kwh": 85069.83
+    },
+    {
+      "id": 238,
+      "meter_id": 48,
+      "recorded_at": "2026-09-14T10:39:31Z",
+      "reading_kwh": 79510.15
+    },
+    {
+      "id": 485,
+      "meter_id": 97,
+      "recorded_at": "2026-09-17T09:11:39Z",
+      "reading_kwh": 49823.69
+    },
+    {
+      "id": 326,
+      "meter_id": 66,
+      "recorded_at": "2026-09-12T20:33:42Z",
+      "reading_kwh": 175069.15
+    },
+    {
+      "id": 33,
+      "meter_id": 7,
+      "recorded_at": "2026-09-15T10:15:54Z",
+      "reading_kwh": 119833.61
+    },
+    {
+      "id": 332,
+      "meter_id": 67,
+      "recorded_at": "2026-09-13T23:30:20Z",
+      "reading_kwh": 94183.66
+    },
+    {
+      "id": 114,
+      "meter_id": 23,
+      "recorded_at": "2026-09-14T00:25:35Z",
+      "reading_kwh": 181272.35
+    },
+    {
+      "id": 313,
+      "meter_id": 63,
+      "recorded_at": "2026-09-12T23:42:00Z",
+      "reading_kwh": 194616.92
+    },
+    {
+      "id": 469,
+      "meter_id": 94,
+      "recorded_at": "2026-09-16T22:37:05Z",
+      "reading_kwh": 117675.81
+    },
+    {
+      "id": 168,
+      "meter_id": 34,
+      "recorded_at": "2026-09-14T07:19:37Z",
+      "reading_kwh": 69324.38
+    },
+    {
+      "id": 288,
+      "meter_id": 58,
+      "recorded_at": "2026-09-15T01:54:17Z",
+      "reading_kwh": 179773.96
+    },
+    {
+      "id": 453,
+      "meter_id": 91,
+      "recorded_at": "2026-09-12T10:12:52Z",
+      "reading_kwh": 52699.92
+    },
+    {
+      "id": 318,
+      "meter_id": 64,
+      "recorded_at": "2026-09-13T09:46:03Z",
+      "reading_kwh": 41414.95
+    },
+    {
+      "id": 13,
+      "meter_id": 3,
+      "recorded_at": "2026-09-16T02:53:37Z",
+      "reading_kwh": 192671.66
+    },
+    {
+      "id": 242,
+      "meter_id": 49,
+      "recorded_at": "2026-09-11T13:27:38Z",
+      "reading_kwh": 153355.52
+    },
+    {
+      "id": 120,
+      "meter_id": 24,
+      "recorded_at": "2026-09-16T14:45:00Z",
+      "reading_kwh": 185581.09
+    },
+    {
+      "id": 346,
+      "meter_id": 70,
+      "recorded_at": "2026-09-13T21:59:57Z",
+      "reading_kwh": 150382.42
+    },
+    {
+      "id": 56,
+      "meter_id": 12,
+      "recorded_at": "2026-09-11T18:30:13Z",
+      "reading_kwh": 128050.18
+    },
+    {
+      "id": 191,
+      "meter_id": 39,
+      "recorded_at": "2026-09-11T07:13:10Z",
+      "reading_kwh": 83271.1
+    },
+    {
+      "id": 482,
+      "meter_id": 97,
+      "recorded_at": "2026-09-12T05:02:35Z",
+      "reading_kwh": 48907.9
+    },
+    {
+      "id": 327,
+      "meter_id": 66,
+      "recorded_at": "2026-09-13T03:18:12Z",
+      "reading_kwh": 175423.16
+    },
+    {
+      "id": 422,
+      "meter_id": 85,
+      "recorded_at": "2026-09-13T03:01:40Z",
+      "reading_kwh": 148752.15
+    },
+    {
+      "id": 196,
+      "meter_id": 40,
+      "recorded_at": "2026-09-11T11:16:45Z",
+      "reading_kwh": 117325.89
+    },
+    {
+      "id": 300,
+      "meter_id": 60,
+      "recorded_at": "2026-09-16T12:26:26Z",
+      "reading_kwh": 142533.56
+    },
+    {
+      "id": 135,
+      "meter_id": 27,
+      "recorded_at": "2026-09-17T13:55:32Z",
+      "reading_kwh": 21630.61
+    },
+    {
+      "id": 491,
+      "meter_id": 99,
+      "recorded_at": "2026-09-11T10:27:22Z",
+      "reading_kwh": 30326.27
+    },
+    {
+      "id": 384,
+      "meter_id": 77,
+      "recorded_at": "2026-09-12T20:11:37Z",
+      "reading_kwh": 189692.83
+    },
+    {
+      "id": 345,
+      "meter_id": 69,
+      "recorded_at": "2026-09-17T17:53:09Z",
+      "reading_kwh": 174563.06
+    },
+    {
+      "id": 189,
+      "meter_id": 38,
+      "recorded_at": "2026-09-15T07:00:58Z",
+      "reading_kwh": 137083.5
+    },
+    {
+      "id": 233,
+      "meter_id": 47,
+      "recorded_at": "2026-09-16T05:12:50Z",
+      "reading_kwh": 149314.32
+    },
+    {
+      "id": 64,
+      "meter_id": 13,
+      "recorded_at": "2026-09-15T03:04:59Z",
+      "reading_kwh": 38592.56
+    },
+    {
+      "id": 275,
+      "meter_id": 55,
+      "recorded_at": "2026-09-17T14:02:49Z",
+      "reading_kwh": 157786.65
+    },
+    {
+      "id": 136,
+      "meter_id": 28,
+      "recorded_at": "2026-09-11T16:34:02Z",
+      "reading_kwh": 26880.94
+    },
+    {
+      "id": 8,
+      "meter_id": 3,
+      "recorded_at": "2026-09-12T16:38:36Z",
+      "reading_kwh": 191089.74
+    },
+    {
+      "id": 203,
+      "meter_id": 41,
+      "recorded_at": "2026-09-14T09:08:56Z",
+      "reading_kwh": 94786.75
+    },
+    {
+      "id": 405,
+      "meter_id": 81,
+      "recorded_at": "2026-09-16T12:14:46Z",
+      "reading_kwh": 90450.54
+    },
+    {
+      "id": 47,
+      "meter_id": 10,
+      "recorded_at": "2026-09-14T05:09:06Z",
+      "reading_kwh": 47175.42
+    }
+  ]
+}
